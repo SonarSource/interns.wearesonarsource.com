@@ -23,7 +23,7 @@ body {
 li.home {
   display: inline-block;
   margin-left: 80px;
-  font-family: sans-serif;
+  font-family: 'Myriad Pro Regular';
 }
 
 li {
@@ -36,14 +36,14 @@ li {
 li :nth-child(2n) {
   display: block;
 }
-ul {
+ul.p {
   text-align: center;
 }
 .h {
   height: 40px;
   vertical-align: -7px;
 }
-ul {
+ul.p {
   background-color: #c72b28;
   line-height: 80px;
 }
@@ -71,6 +71,7 @@ h3 {
   background-color: #c72b28;
   line-height: 50px;
   color: white;
+  width: 100%;
 }
 table {
   text-align: center;
@@ -95,6 +96,6 @@ a.lien:hover {
     text-decoration: none;
 }
 a.nom:hover{
-    text-decoration: underline;
-    color:  white;
+    text-decoration: none;
+    color:  #c72b28;
 }

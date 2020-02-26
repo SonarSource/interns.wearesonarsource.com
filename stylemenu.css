@@ -93,4 +93,9 @@ a.lien:hover{
 }
 .nom {
     color: white;
+    text-decoration: none;
+}
+a.nom:hover{
+    text-decoration: underline;
+    color:  white;
 }

@@ -54,3 +54,29 @@ li :hover{
 
     text-decoration-color: white;
 }
+
+table {
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid black
+}
+h3 {
+    text-align: center;
+    box-shadow: 1px 6px 8px rgba(7, 7, 7, 0.658);
+    background-color: rgb(167, 5, 5); 
+    line-height: 50px;
+    color: floralwhite;
+}
+table {
+    text-align: center;
+}
+a {
+text-decoration: none;
+color: rgb(167, 5, 5);
+font-style: italic;
+}
+a:hover{
+    text-decoration: underline;
+    color: rgba(12, 121, 245, 0.781);
+}

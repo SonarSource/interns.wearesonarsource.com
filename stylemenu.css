@@ -49,3 +49,8 @@ img.image {
 .lipsum::first-letter{
     font-size: 80px;
 }
+
+li :hover{
+
+    text-decoration-color: white;
+}

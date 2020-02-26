@@ -73,10 +73,9 @@ table {
 }
 a {
 text-decoration: none;
-color: rgb(167, 5, 5);
-font-style: italic;
+color: black;
 }
 a:hover{
     text-decoration: underline;
-    color: rgba(12, 121, 245, 0.781);
+    color:  white;
 }

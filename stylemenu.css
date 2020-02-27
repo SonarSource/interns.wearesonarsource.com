@@ -173,3 +173,7 @@ table.tableau{
   border-radius: 400px;
   height: 100px;
 }
+
+img.face {
+  border-radius: 90%;
+}

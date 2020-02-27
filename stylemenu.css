@@ -3,6 +3,7 @@ html{
   border-bottom:  5px solid #c72b28;
   border-left: 5px solid #c72b28;
   border-right: 5px solid #c72b28;
+  
 }
 h1 {
   text-align: center;
@@ -25,6 +26,7 @@ body {
   background-position: center;
   min-height: 100vh;
   margin: 0;
+  background-color: #333333;
 }
 
 li.home {
@@ -132,4 +134,12 @@ table.tableau{
   width: 100%;
   z-index: 100;
   background-image: url("https://habbo-dev.fr/uploads/monthly_2017_09/op_36852_developpement-informatique1.jpg.dc6cd0ff24ac080184eb8879981524a8.jpg");
+}
+
+.teamface {
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
 }

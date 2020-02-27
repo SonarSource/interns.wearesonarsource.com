@@ -177,7 +177,17 @@ table.tableau{
   height: 250px;
 }
 
-.card img.face {
+.card1 img.face {
+  border-radius: 90%;
+  width:35px; 
+  height:35px;
+}
+.card2 img.face {
+  border-radius: 90%;
+  width:35px; 
+  height:35px;
+}
+.card4 img.face {
   border-radius: 90%;
   width:35px; 
   height:35px;
@@ -275,22 +285,60 @@ div.desc {
   background-color: deepskyblue;
 }
 
-.card p {
+
+.card1 p {
   padding-bottom: 10px;
   line-height: 14px;
 }
 
-
-.card div {
+.card1 div {
   display: inline-flex;
 }
 
-.card ul {
+.card1 ul {
   padding: 0px 12px 12px 12px;
   margin: -12px;
 }
 
-.card ul li {
+.card1 ul li {
+  display: inline-block;
+}
+
+
+.card2 p {
+  padding-bottom: 10px;
+  line-height: 14px;
+}
+
+.card2 div {
+  display: inline-flex;
+}
+
+.card2 ul {
+  padding: 0px 12px 12px 12px;
+  margin: -12px;
+}
+
+.card2 ul li {
+  display: inline-block;
+}
+
+
+.card3 p {
+  padding-bottom: 10px;
+  line-height: 14px;
+}
+
+.card3 div {
+  display: inline-flex;
+}
+
+.card3 ul {
+  padding: 0px 12px 12px 12px;
+  margin: -12px;
+}
+
+.card3 ul li {
   display: inline-block;
 }
 

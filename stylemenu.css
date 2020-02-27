@@ -167,10 +167,10 @@ table.tableau{
   }
 
 .chicken {
-  margin-left: 670px;
+  margin-left: 600px;
   margin-right: auto;
   border-radius: 400px;
-  height: 100px;
+  height: 250px;
 }
 
 img.face {
@@ -179,20 +179,9 @@ img.face {
 
 .why {
   margin-top: 10px;
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 100px;
+  margin-right: 100px;
   text-align: justify;
   font-family: 'Myriad Pro Regular';
-}
-
-.button {
-  background-color:#c72b28;
-  border: none;
-  color: white;
-  padding: 20px 34px;
-  text-align: center;
-  display: inline-block;
-  font-size: 50px;
-  margin: 4px 2px;
-  cursor: pointer;
+  color: #c72b28;
 }

@@ -149,6 +149,7 @@ table.tableau{
   font-size: 20px;
   text-align: center;
   font-family: 'Myriad Pro Regular';
+  margin-top: 10px;
   }
 
   .fade {
@@ -187,6 +188,9 @@ img.face {
 
 div.mySlides {
   text-align: center;
+  float: left ;
+  margin-top: 20px;
+  margin-right: 40px;
 }
 
 .tooltip {
@@ -222,7 +226,7 @@ div.gallery {
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+  border: 1px #c72b28;
 }
 
 div.gallery img {

@@ -41,6 +41,7 @@ li {
   font-weight: 150px;
   font-family: "Roboto";
   font-style: unset;
+  font-family: "Myriad Pro Regular"
 }
 li :nth-child(2n) {
   display: block;
@@ -167,7 +168,7 @@ table.tableau{
   }
 
 .chicken {
-  margin-left: auto;
+  margin-left: 10px;
   border-radius: 400px;
   height: 250px;
 }
@@ -185,14 +186,6 @@ table.tableau{
   text-align: justify;
   font-family: 'Myriad Pro Regular';
   color: #c72b28;
-}
-
-div.mySlides {
-  text-align: center;
-  float: left ;
-  margin-top: 20px;
-  margin-right: 40px;
-  margin-left: auto;
 }
 
 .tooltip {
@@ -225,9 +218,8 @@ div.mySlides {
 
 
 div.gallery img {
-  width: 100%;
-  height: auto;
-  margin-top: 10px;
+  width: 300px;
+  border-radius: 10px;
 }
 
 div.desc {
@@ -290,7 +282,29 @@ div.desc {
   display: table;
   clear: both;
 }
+.line {
+  display: inline-flex;
+  width: 100%;
+}
 
-.hu {
-  font-family: 'Myriad Pro Regular';
+.department {
+  width: 50%;
+  text-align: center;
+}
+
+.missioncontrol {
+  width: 100%;
+}
+
+.produit {
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 45px;
+
+}
+
+.footer li {
+  text-align: center;
+  width: 33%;
 }

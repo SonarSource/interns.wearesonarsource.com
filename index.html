@@ -28,9 +28,9 @@
            <li class="home">  Project <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" width="12px" height="12px">
             <path fill="currentColor" d="M6 8.9c-.3 0-.5-.1-.7-.3L1.4 4.7c-.4-.3-.4-1 0-1.4s1-.4 1.4 0L6 6.5l3.2-3.2c.4-.4 1-.4 1.4 0s.4 1 0 1.4l-3.9 4c-.2.1-.4.2-.7.2z"></path>
             </svg> </li>
-           <li class="home"> Gallery <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" width="12px" height="12px">
+           <li class="home"> <a class="lien" href="gallery.html"> Gallery <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" width="12px" height="12px"> 
             <path fill="currentColor" d="M6 8.9c-.3 0-.5-.1-.7-.3L1.4 4.7c-.4-.3-.4-1 0-1.4s1-.4 1.4 0L6 6.5l3.2-3.2c.4-.4 1-.4 1.4 0s.4 1 0 1.4l-3.9 4c-.2.1-.4.2-.7.2z"></path>
-            </svg> </li>
+            </svg> </a></li>
         </ul>
         </div>
         <img class="teamface" src="./images/IMG_2719.jpeg"> 
@@ -44,22 +44,41 @@
        </div>
      </body>
   </head>
-  <br>
+  
 
+  <ul class="footer">
+    <li>
       <div class="mySlides fade">
         <img class="chicken" src="./images/team poulet/tete morgane poulet.png" >
-        <div class="text"> Chicken team number 1 > Morgane </div>
+        <div class="text"> Chicken team number 1 </div>
       </div>
       <div class="mySlides fade">
         <img class="chicken" src="./images/team poulet/tete celia poulet.png" >
-        <div class="text">Chicken team number 2 > Celia</div>
+        <div class="text">Chicken team number 2 </div>
       </div>
       <div class="mySlides fade">
         <img class="chicken" src="./images/team poulet/tete mae poulet.png">
-        <div class="text">Chicken team number 3 > Maelys </div>
+        <div class="text">Chicken team number 3 </div>
       </div>
 
-   <script>
+    </li>
+    <li > 
+        <img class="produit" src="https://www.sonarsource.com/index/products/sonarlint-logo-black.svg"> <br>
+        <img class="produit" src="https://www.sonarsource.com/index/products/sonarcloud-logo-black.svg"> <br>
+        <img class="produit" src="https://www.sonarsource.com/index/products/sonarqube-logo-black.svg"> 
+    </li>
+
+    <li>
+      <div class="gallery">
+        <a target="_blank" href="./images/IMG_20200227_102122.jpg"> 
+          <img src="./images/IMG_20200227_102122.jpg">
+        </a>
+        <div class="desc">Group picture <em> click </em>
+        </div>
+      </div>
+    </li>
+    
+    <script>
         var slideIndex = 0;
         showSlides();
         
@@ -74,22 +93,8 @@
           setTimeout(showSlides, 4000); 
         }
       </script>
-    
-    <div class="responsive">
-      <div class="gallery">
-        <a target="_blank" href="./images/IMG_20200227_102122.jpg"> 
-          <img  class="teamface" src="./images/IMG_20200227_102122.jpg"  width="600" height="400">
-        </a>
-        <div class="desc">Group picture <em> click </em>
-        </div>
-      </div>
-    </div>
-    
-    <div class="clearfix"></div>
-    
-    <div style="padding:6px;"></div>
 
-
+</div>
 
 </html>
 

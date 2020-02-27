@@ -4,7 +4,8 @@ h1 {
   font-family: "Myriad Pro Regular";
   color: white;
   margin: 0;
-  padding: 50px 0;
+  padding-bottom: 10px;
+
 }
 
 h1 strong {
@@ -38,21 +39,20 @@ li :nth-child(2n) {
 }
 ul.p {
   text-align: center;
+  background-color: #c72b28;
+  line-height: 80px;
 }
 .h {
   height: 40px;
   vertical-align: -7px;
 }
-ul.p {
-  background-color: #c72b28;
-  line-height: 80px;
-}
+
 img.image {
   height: 80px;
   text-align: right;
 }
 .lipsum::first-letter {
-  font-size: 80px;
+  font-size: 70px;
 }
 
 li :hover {
@@ -72,7 +72,7 @@ h3 {
   background-color: #c72b28;
   line-height: 50px;
   color: white;
-  width: 100%;
+
 }
 table {
   text-align: center;
@@ -100,12 +100,17 @@ a.nom:hover{
     text-decoration: none;
     color:  #c72b28;
 }
-
-a:hover{
-    text-decoration: underline;
-    color:  white;
+.logo {
+    margin-left: -40px;
+    height: 80px;
 }
+<<<<<<< HEAD
 table.tableau{
   background-color: #c95e219f;
   line-height: 5px
 }
+=======
+.h :hover {
+    color: white;
+}
+>>>>>>> ec56d673aebeca0e3250f8c37bc7bb6cfef51336

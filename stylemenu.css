@@ -281,8 +281,6 @@ div.desc {
   display: table;
   clear: both;
 }
-
-<<<<<<< HEAD
 .line {
   display: inline-flex;
   width: 100%;
@@ -295,8 +293,6 @@ div.desc {
 
 .missioncontrol {
   width: 100%;
-=======
 .hu {
   font-family: 'Myriad Pro Regular';
->>>>>>> 370d338732b1c02c822771a1594c5316474783f3
 }

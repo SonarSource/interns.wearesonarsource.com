@@ -179,7 +179,20 @@ img.face {
 
 .why {
   margin-top: 10px;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
   text-align: justify;
+  font-family: 'Myriad Pro Regular';
+}
+
+.button {
+  background-color:#c72b28;
+  border: none;
+  color: white;
+  padding: 20px 34px;
+  text-align: center;
+  display: inline-block;
+  font-size: 50px;
+  margin: 4px 2px;
+  cursor: pointer;
 }

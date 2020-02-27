@@ -142,7 +142,6 @@ table.tableau{
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
-  float: left;
 }
 
 .text {
@@ -168,7 +167,7 @@ table.tableau{
   }
 
 .chicken {
-  margin-left: 500px;
+  margin-left: 670px;
   margin-right: auto;
   border-radius: 400px;
   height: 100px;

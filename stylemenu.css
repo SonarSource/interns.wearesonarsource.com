@@ -115,7 +115,7 @@ a.nom:hover{
 table.tableau{
   background-color: #c95e219f;
   line-height: 10px
-}
+  }
 
 .h :hover {
     color: white;
@@ -280,4 +280,8 @@ div.desc {
 .clearfix:after {
   display: table;
   clear: both;
+}
+
+.hu {
+  font-family: 'Myriad Pro Regular';
 }

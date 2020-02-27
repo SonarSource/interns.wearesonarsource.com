@@ -272,7 +272,18 @@ div.desc {
   display: table;
   clear: both;
 }
+.line {
+  display: inline-flex;
+  width: 100%;
+}
 
+.department {
+  width: 50%;
+  text-align: center;
+}
+
+.missioncontrol {
+  width: 100%;
 .hu {
   font-family: 'Myriad Pro Regular';
 }

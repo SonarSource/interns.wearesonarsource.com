@@ -257,11 +257,6 @@ div.desc {
   }
 }
 
-
-h4 {
-margin-bottom: 0,5cm;
-}
-
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   padding: 2px 16px 20px 16px;
@@ -279,6 +274,7 @@ margin-bottom: 0,5cm;
 .card ul li {
   display: inline;
 }
+
 .clearfix:after {
   display: table;
   clear: both;

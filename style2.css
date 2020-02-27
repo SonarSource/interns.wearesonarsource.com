@@ -23,3 +23,8 @@ a:hover{
     text-decoration: underline;
     color: rgba(12, 121, 245, 0.781);
 }
+
+table.tableau{
+    background-color: #c95e219f;
+    line-height: 5px
+}

@@ -114,7 +114,7 @@ a.nom:hover{
 }
 
 table.tableau{
-  background-color: #c95e219f;
+  background-color: rgba(136, 133, 133, 0.829);
   line-height: 10px
   }
 
@@ -173,8 +173,10 @@ table.tableau{
   height: 250px;
 }
 
-img.face {
+.card img.face {
   border-radius: 90%;
+  width:35px; 
+  height:35px;
 }
 
 .why {
@@ -254,6 +256,8 @@ div.desc {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   padding: 2px 16px 20px 16px;
+  border-radius: 10px;
+  background-color: deepskyblue;
 }
 
 .card p {
@@ -265,8 +269,13 @@ div.desc {
   display: inline-flex;
 }
 
+.card ul {
+  padding: 0px 12px 12px 12px;
+  margin: -12px;
+}
+
 .card ul li {
-  display: inline;
+  display: inline-block;
 }
 
 .clearfix:after {

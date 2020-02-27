@@ -173,9 +173,6 @@ table.tableau{
   height: 100px;
 }
 
-.why {
-  margin-top: 10px;
-  margin-left: 30px;
-  margin-right: 30px;
-  text-align: justify;
+img.face {
+  border-radius: 90%;
 }

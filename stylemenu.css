@@ -41,6 +41,7 @@ li {
   font-weight: 150px;
   font-family: "Roboto";
   font-style: unset;
+  font-family: "Myriad Pro Regular"
 }
 li :nth-child(2n) {
   display: block;

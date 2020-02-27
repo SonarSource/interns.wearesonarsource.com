@@ -39,9 +39,8 @@ li {
   display: inline-block;
   color: #c72b28;
   font-weight: 150px;
-  font-family: "Roboto";
   font-style: unset;
-  font-family: "Myriad Pro Regular"
+  font-family: "Myriad Pro Regular" ;
 }
 li :nth-child(2n) {
   display: block;
@@ -76,14 +75,15 @@ td {
 }
 h3 {
   text-align: center;
-  box-shadow: 1px 6px 8px gray;
-  background-color: #c72b28d3;
-  line-height: 30px;
+  font-family: "Myriad Pro Regular";
+  font-weight: 200px;
   color: white;
+  text-decoration: underline white;
 
 }
 table {
   text-align: center;
+  font-family: "Myriad Pro Regular";
 }
 a.lien {
   text-decoration: none;
@@ -253,12 +253,23 @@ div.desc {
   }
 }
 
-.card {
+.card1 {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   padding: 2px 16px 20px 16px;
   border-radius: 10px;
   background-color: deepskyblue;
 }
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 2px 16px 20px 16px;
+  border-radius: 10px;
+  background-color: deepskyblue;
+}.card4 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 2px 16px 20px 16px;
+  border-radius: 10px;
+  background-color: deepskyblue;
+
 
 .card p {
   padding-bottom: 10px;

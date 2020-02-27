@@ -42,17 +42,17 @@
         Jean-Baptiste and Xavier helped us a lot and it was so fun. Thank you. 
         (And it was also thanks to Gerome and Emma who drove us to the office all the week. And nothing would have happened if Olivier Gaudin wouldn't have accepted us at SonarSource.) 
        </div>
-        <button onclick="window.location.href = '';">Cliquez Ici</button>
+        <button class="button" onclick="window.location.href = '';">Cliquez Ici</button>
      </body>
   </head>
   <br>
 
       <div class="mySlides fade">
-        <img class="chicken" src="/Users/stagiaire/Desktop/Capture d’écran 2020-02-27 à 12.20.56.png" >
+        <img class="chicken" src="./images/Capture d’écran 2020-02-27 à 12.20.56.png" >
         <div class="text"> Chicken team number 1</div>
       </div>
       <div class="mySlides fade">
-        <img class="chicken" src="/Users/stagiaire/Desktop/Capture d’écran 2020-02-27 à 12.18.37.png" >
+        <img class="chicken" src="./images/Capture d’écran 2020-02-27 à 12.18.37.png" >
         <div class="text">Chicken team number 2</div>
       </div>
       <div class="mySlides fade">
@@ -70,9 +70,9 @@
           for (i = 0; i < slides.length; i++) {
             slides[i].style.display = "none"; 
           }
+          slides[slideIndex % 3].style.display = "block"; 
           slideIndex++;
-          slides[slideIndex-1].style.display = "block"; 
-          setTimeout(showSlides, 4000); // Change image every 2 seconds
+          setTimeout(showSlides, 4000); 
         }
       </script>
 </html>

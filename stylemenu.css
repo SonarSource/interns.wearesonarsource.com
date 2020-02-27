@@ -231,6 +231,7 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
+  font-family: 'Myriad Pro Regular' ;
 }
 
 * {
@@ -256,7 +257,3 @@ div.desc {
   }
 }
 
-.clearfix:after {
-  display: table;
-  clear: both;
-}

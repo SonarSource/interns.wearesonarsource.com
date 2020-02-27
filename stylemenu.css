@@ -1,9 +1,15 @@
+html{
+  border-top: 5px solid #c72b28;
+  border-bottom:  5px solid #c72b28;
+  border-left: 5px solid #c72b28;
+  border-right: 5px solid #c72b28;
+}
 h1 {
   text-align: center;
   font-size: 60px;
   font-family: "Myriad Pro Regular";
   color: white;
-  margin: 0;
+  margin: -10px;
   padding-bottom: 10px;
 
 }
@@ -13,7 +19,7 @@ h1 strong {
 }
 
 body {
-  background-image: url("https://images.squarespace-cdn.com/content/v1/5cf9046d4b1d31000129ca6e/1559893829694-KDL3G1KRRGUOKU6LGU68/ke17ZwdGBToddI8pDm48kDhgkfvbp3JBaqmyanbCvSJ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0o8OMvY5tuV_wqZQCqqStn775vq3pgxnhMvqUwX5Q3JlskeNdY_593UofjYQeoblEA/DSC_1196+%282%29.JPG?format=2500w");
+  background-color: white;
   background-size: cover;
   background-repeat: repeat;
   background-position: center;
@@ -25,11 +31,12 @@ li.home {
   display: inline-block;
   margin-left: 80px;
   font-family: 'Myriad Pro Regular';
+  font-size: 30px;
 }
 
 li {
   display: inline-block;
-  color: black;
+  color: #c72b28;
   font-weight: 150px;
   font-family: "Roboto";
   font-style: unset;
@@ -39,11 +46,10 @@ li :nth-child(2n) {
 }
 ul.p {
   text-align: center;
-  background-color: #c72b28;
   line-height: 80px;
 }
 .h {
-  height: 40px;
+  height: 60px;
   vertical-align: -7px;
 }
 
@@ -79,7 +85,7 @@ table {
 }
 a.lien {
   text-decoration: none;
-  color: black;
+  color: #c72b28;
 }
 a.lien:hover {
   text-decoration: underline;
@@ -88,7 +94,7 @@ a.lien:hover {
 
 .presentation {
   font-size: 20px;
-  color: #c72b28;
+  color: white;
   font-size: 15px;
   text-align: center;
 }
@@ -106,4 +112,18 @@ a.nom:hover{
 }
 .h :hover {
     color: white;
+}
+
+.sonar {
+  height: 30px;
+  padding-right: 10px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.menu-header {
+  position: relative;
+  width: 100%;
+  z-index: 100;
+  background-image: url("https://habbo-dev.fr/uploads/monthly_2017_09/op_36852_developpement-informatique1.jpg.dc6cd0ff24ac080184eb8879981524a8.jpg");
 }

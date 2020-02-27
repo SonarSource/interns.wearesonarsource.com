@@ -191,6 +191,7 @@ div.mySlides {
   float: left ;
   margin-top: 20px;
   margin-right: 40px;
+  margin-left: auto;
 }
 
 .tooltip {
@@ -221,13 +222,6 @@ div.mySlides {
   border-radius: 100%;
 }
 
-div.gallery {
-  border: 1px solid #ccc;
-}
-
-div.gallery:hover {
-  border: 1px #c72b28;
-}
 
 div.gallery img {
   width: 100%;
@@ -245,7 +239,7 @@ div.desc {
 
 .responsive {
   padding: 0 6px;
-  float: left;
+  float: right;
   width: 24.99999%;
 }
 
@@ -285,7 +279,6 @@ margin-bottom: 0,5cm;
   display: inline;
 
 .clearfix:after {
-  content: "";
   display: table;
   clear: both;
 }

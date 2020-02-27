@@ -142,4 +142,34 @@ table.tableau{
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
+  float: left;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Myriad Pro Regular';
+  }
+
+  .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1s;
+  animation-name: fade;
+  animation-duration: 1s;
+  }
+  @-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+  }
+  @keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+  }
+
+.chicken {
+  margin-left: 500px;
+  margin-right: auto;
+  border-radius: 400px;
+  height: 100px;
 }

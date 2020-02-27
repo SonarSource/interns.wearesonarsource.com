@@ -33,10 +33,47 @@
             </svg> </li>
         </ul>
         </div>
-            <img class="teamface" src="/Users/stagiaire/Desktop/IMG_2719.jpeg"> 
-            <button onclick="window.location.href = 'https://fr.w3docs.com/';">Cliquez Ici</button>
-    </body>
+        <img class="teamface" src="/Users/stagiaire/Desktop/IMG_2719.jpeg"> 
+        We, interns in SonarSource for a week, wanted to see how a developer works since we want to work in informatique and more precisely developer. 
+        It can show us the conditions, the tools, the knowledge to have... etc. 
+        We've always been attracted by it : code, languages, computer and else. 
+        During this week, we've been even more interressed in it. 
+        Moreover, we made our own page with HTML and CSS. 
+        Jean-Baptiste and Xavier helped us a lot and it was so fun. Thank you. 
+        (And it was also thanks to Gerome and Emma who drove us to the office all the week. And nothing would have happened if Olivier Gaudin wouldn't have accepted us at SonarSource.)
+        <button onclick="window.location.href = '';">Cliquez Ici</button>
+     </body>
+  </head>
+  <br>
 
+      <div class="mySlides fade">
+        <img class="chicken" src="/Users/stagiaire/Desktop/Capture d’écran 2020-02-27 à 12.20.56.png" >
+        <div class="text"> Chicken team number 1</div>
+      </div>
+      <div class="mySlides fade">
+        <img class="chicken" src="/Users/stagiaire/Desktop/Capture d’écran 2020-02-27 à 12.18.37.png" >
+        <div class="text">Chicken team number 2</div>
+      </div>
+      <div class="mySlides fade">
+        <img class="chicken" src="/Users/stagiaire/Desktop/Capture d’écran 2020-02-27 à 12.21.48.png">
+        <div class="text">Chicken team number 3</div>
+      </div>
+
+   <script>
+        var slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none"; 
+          }
+          slideIndex++;
+          slides[slideIndex-1].style.display = "block"; 
+          setTimeout(showSlides, 4000); // Change image every 2 seconds
+        }
+      </script>
 </html>
 
 

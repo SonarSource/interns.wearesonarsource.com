@@ -4,6 +4,7 @@ html{
   border-left: 5px solid #c72b28;
   border-right: 5px solid #c72b28;
 }
+
 h1 {
   text-align: center;
   font-size: 60px;
@@ -11,7 +12,6 @@ h1 {
   color: white;
   margin: -10px;
   padding-bottom: 10px;
-
 }
 
 h1 strong {
@@ -42,13 +42,16 @@ li {
   font-style: unset;
   font-family: "Myriad Pro Regular" ;
 }
+
 li :nth-child(2n) {
   display: block;
 }
+
 ul.p {
   text-align: center;
   line-height: 80px;
 }
+
 .h {
   height: 60px;
   vertical-align: -7px;
@@ -108,6 +111,7 @@ a.nom:hover{
     text-decoration: none;
     color:  #c72b28;
 }
+
 .logo {
     margin-left: -40px;
     height: 80px;
@@ -152,7 +156,7 @@ table.tableau{
   margin-top: 10px;
   }
 
-  .fade {
+.fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1s;
   animation-name: fade;
@@ -165,7 +169,7 @@ table.tableau{
   @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
-  }
+}
 
 .chicken {
   margin-left: 10px;
@@ -269,12 +273,14 @@ div.desc {
   padding: 2px 16px 20px 16px;
   border-radius: 10px;
   background-color: deepskyblue;
+}
 
 
 .card p {
   padding-bottom: 10px;
   line-height: 14px;
 }
+
 
 .card div {
   display: inline-flex;
@@ -293,6 +299,7 @@ div.desc {
   display: table;
   clear: both;
 }
+
 .line {
   display: inline-flex;
   width: 100%;
@@ -312,7 +319,6 @@ div.desc {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 45px;
-
 }
 
 .footer li {

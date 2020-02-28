@@ -366,3 +366,7 @@ div.card div {
    text-align: center;
    font-size: 20px;
  }
+
+ img.im {
+   border-radius: 10px;
+ }

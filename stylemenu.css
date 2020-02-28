@@ -355,8 +355,8 @@ div.card div {
   justify-content: space-between;
 }
 .gallery {
-  height: 450px;
-  text-align: center;
+  max-height: 450px;
+  max-width: 700px;
 }
  .face {
    border-radius: 10px;

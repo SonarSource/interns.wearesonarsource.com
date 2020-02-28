@@ -377,3 +377,10 @@ div.desc {
 .testons {
   background-color: #333333;
 }
+
+}.card5 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 2px 16px 20px 16px;
+  border-radius: 10px;
+  background-color: deepskyblue;
+}

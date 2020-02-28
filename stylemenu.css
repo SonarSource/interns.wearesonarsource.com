@@ -370,8 +370,17 @@ div.card div {
 
 .flip-card {
   background-color: transparent;
+
+
+  width: 100%;
+  height: 200px;
+
   width: 100px;
   height: 140px;
+
+
+  width: 100px;
+
   perspective: 1000px;
  }
 
@@ -396,7 +405,11 @@ div.card div {
   backface-visibility: hidden;
 }
 
+<<<<<<< HEAD
 .flip-card-back {
+=======
 
-  transform: rotateY(180deg);
-}
+
+>>>>>>> d0b0f66c5bde0139e5c34c9e405a91a80f365e80
+
+

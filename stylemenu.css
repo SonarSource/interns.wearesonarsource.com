@@ -343,13 +343,22 @@ p.six {
   color: white;
   font-family: 'Myriad Pro Regular' ;
 
-}.card5 {
+}
+.card5 {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   padding: 2px 16px 20px 16px;
   border-radius: 10px;
   background-color: deepskyblue;
 }
 
+<<<<<<< HEAD
+
+.spaced {
+  display: flex;
+  justify-content: space-between;
+}
+=======
 .gallery {
   height: 450px;
 }
+>>>>>>> b629b0a886171f08ec8ee59c883d9bd70e4cdfcb

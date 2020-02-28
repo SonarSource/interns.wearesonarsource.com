@@ -284,7 +284,7 @@ div.desc {
 }
 
 .card div {
-  display: inline-flex;
+  display: flex;
 }
 
 .card ul {
@@ -351,8 +351,7 @@ p.six {
   background-color: deepskyblue;
 }
 
-.spaced {
-  display: flex;
+div.card div {
   justify-content: space-between;
 }
 .gallery {

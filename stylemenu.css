@@ -271,18 +271,19 @@ div.desc {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   padding: 2px 16px 20px 16px;
   border-radius: 10px;
-  background-color: deepskyblue;
+  background-color: #c72b28;
 }
 .card2 {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   padding: 2px 16px 20px 16px;
   border-radius: 10px;
-  background-color: deepskyblue;
-}.card4 {
+  background-color: #4c9bd6 ;
+}
+.card4 {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   padding: 2px 16px 20px 16px;
   border-radius: 10px;
-  background-color: deepskyblue;
+  background-color: #fd6a00 ;
 }
 
 
@@ -324,16 +325,16 @@ div.desc {
 }
 
 
-.card3 p {
+.card4 p {
   padding-bottom: 10px;
   line-height: 14px;
 }
 
-.card3 div {
+.card4 div {
   display: inline-flex;
 }
 
-.card3 ul {
+.card4 ul {
   padding: 0px 12px 12px 12px;
   margin: -12px;
 }

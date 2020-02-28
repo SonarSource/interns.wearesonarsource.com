@@ -324,21 +324,21 @@ div.desc {
 }
 
 
-.card3 p {
+.card4 p {
   padding-bottom: 10px;
   line-height: 14px;
 }
 
-.card3 div {
+.card4 div {
   display: inline-flex;
 }
 
-.card3 ul {
+.card4 ul {
   padding: 0px 12px 12px 12px;
   margin: -12px;
 }
 
-.card3 ul li {
+.card4 ul li {
   display: inline-block;
 }
 
@@ -378,14 +378,12 @@ div.desc {
   background-color: #333333;
 }
 
-<<<<<<< HEAD
 .card5 {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   padding: 2px 16px 20px 16px;
   border-radius: 10px;
   background-color: indigo;
 }
-=======
 
 p.six {
   color: white;
@@ -397,4 +395,7 @@ p.six {
   border-radius: 10px;
   background-color: deepskyblue;
 }
->>>>>>> 2dd8102f3156e0bf5a4f23a7606e95a741843328
+
+.gallery {
+  height: 30px;
+}

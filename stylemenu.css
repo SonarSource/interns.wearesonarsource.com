@@ -370,8 +370,8 @@ div.card div {
 .flip-card {
 
   background-color: transparent;
-  width: 100px;
-  height: 140px;
+  width: 220px;
+  height: 170px;
   perspective: 1000px;
  }
 
@@ -394,9 +394,6 @@ div.card div {
   height: 100%;
   -webkit-backface-visibility: hidden; 
   backface-visibility: hidden;
-}
-
-.flip-card-front {
 }
 
 .flip-card-back {

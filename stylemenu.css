@@ -381,19 +381,26 @@ div.card div {
   perspective: 1000px;
  }
 
--402,16 +397,10 @@ div.card div {
+div.card div {
 }
 
 .flip-card-front {
 
 }
 
-.flip-card-back {
-
-
-}
 
 .flip-card-back {
 
   transform: rotateY(180deg);
 }
+#ikea {
+  display: none;
+}
+#ikea + img {
+display: none;
+}
+
+
+#ikea:checked + img {
+  display: inline;
+  }

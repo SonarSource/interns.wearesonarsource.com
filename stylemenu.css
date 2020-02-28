@@ -271,19 +271,18 @@ div.desc {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   padding: 2px 16px 20px 16px;
   border-radius: 10px;
-  background-color: #c72b28;
+  background-color: deepskyblue;
 }
 .card2 {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   padding: 2px 16px 20px 16px;
   border-radius: 10px;
-  background-color: #4c9bd6 ;
-}
-.card4 {
+  background-color: deepskyblue;
+}.card4 {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   padding: 2px 16px 20px 16px;
   border-radius: 10px;
-  background-color: #fd6a00 ;
+  background-color: deepskyblue;
 }
 
 
@@ -339,7 +338,7 @@ div.desc {
   margin: -12px;
 }
 
-.card3 ul li {
+.card4 ul li {
   display: inline-block;
 }
 
@@ -379,6 +378,12 @@ div.desc {
   background-color: #333333;
 }
 
+.card5 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 2px 16px 20px 16px;
+  border-radius: 10px;
+  background-color: indigo;
+}
 
 p.six {
   color: white;
@@ -392,8 +397,14 @@ p.six {
   background-color: deepskyblue;
 }
 
+<<<<<<< HEAD
 
 .spaced {
   display: flex;
   justify-content: space-between;
 }
+=======
+.gallery {
+  height: 30px;
+}
+>>>>>>> b629b0a886171f08ec8ee59c883d9bd70e4cdfcb

@@ -324,21 +324,21 @@ div.desc {
 }
 
 
-.card3 p {
+.card4 p {
   padding-bottom: 10px;
   line-height: 14px;
 }
 
-.card3 div {
+.card4 div {
   display: inline-flex;
 }
 
-.card3 ul {
+.card4 ul {
   padding: 0px 12px 12px 12px;
   margin: -12px;
 }
 
-.card3 ul li {
+.card4 ul li {
   display: inline-block;
 }
 
@@ -389,9 +389,22 @@ p.six {
   color: white;
   font-family: 'Myriad Pro Regular' ;
 
-}.card5 {
+}
+.card5 {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   padding: 2px 16px 20px 16px;
   border-radius: 10px;
   background-color: deepskyblue;
 }
+
+<<<<<<< HEAD
+
+.spaced {
+  display: flex;
+  justify-content: space-between;
+}
+=======
+.gallery {
+  height: 30px;
+}
+>>>>>>> b629b0a886171f08ec8ee59c883d9bd70e4cdfcb

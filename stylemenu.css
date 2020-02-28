@@ -379,14 +379,14 @@ div.desc {
   background-color: #333333;
 }
 
-<<<<<<< HEAD
+
 p.six {
   color: white;
-=======
+  font-family: 'Myriad Pro Regular' ;
+
 }.card5 {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   padding: 2px 16px 20px 16px;
   border-radius: 10px;
   background-color: deepskyblue;
->>>>>>> 053def3c4e196f7b7c6999950de0eea48621562f
 }

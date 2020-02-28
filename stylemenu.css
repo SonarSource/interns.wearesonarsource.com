@@ -406,7 +406,9 @@ div.card div {
 }
 
 
-.flip-card-back {}
+.flip-card-back {
+  color: #4c9bd6;
+}
 
 
 

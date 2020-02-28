@@ -351,14 +351,11 @@ p.six {
   background-color: deepskyblue;
 }
 
-<<<<<<< HEAD
 
 .spaced {
   display: flex;
   justify-content: space-between;
 }
-=======
 .gallery {
   height: 450px;
 }
->>>>>>> b629b0a886171f08ec8ee59c883d9bd70e4cdfcb

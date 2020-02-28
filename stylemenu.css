@@ -367,18 +367,16 @@ div.card div {
    font-size: 20px;
  }
 
-<<<<<<< HEAD
 
 
  .flip-card {
   background-color: transparent;
   width: 300px;
   height: 200px;
-  border: 1px solid #f1f1f1;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
-}
+  border: 1px solid  #c72b28;;
+  perspective: 1000px;
+ }
 
-/* This container is needed to position the front and back side */
 .flip-card-inner {
   position: relative;
   width: 100%;
@@ -388,7 +386,6 @@ div.card div {
   transform-style: preserve-3d;
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
@@ -402,16 +399,12 @@ div.card div {
 }
 
 .flip-card-front {
-  background-color: #bbb;
-  color: black;
+  background-color: deepskyblue;
+  color: #c72b28;;
 }
 
 .flip-card-back {
-  background-color: dodgerblue;
-  color: white;
+  background-color: deepskyblue;
+  color: #c72b28;;
   transform: rotateY(180deg);
 }
-=======
- 
- 
->>>>>>> 11e70d70b5fbcc18eb8bd3cddaef58b45092d8c1

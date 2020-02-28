@@ -40,7 +40,7 @@ li {
   color: #c72b28;
   font-weight: 150px;
   font-style: unset;
-  font-family: "Myriad Pro Regular" ;
+  font-family: "Myriad Pro Regular" ;  
 }
 
 li :nth-child(2n) {

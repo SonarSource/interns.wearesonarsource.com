@@ -356,7 +356,6 @@ div.card div {
 }
 .gallery {
   height: 450px;
-  text-align: center;
 }
  .face {
    border-radius: 10px;
@@ -369,18 +368,10 @@ div.card div {
  }
 
 .flip-card {
+
   background-color: transparent;
-
-
-  width: 100%;
+  width: 300px;
   height: 200px;
-
-  width: 100px;
-  height: 140px;
-
-
-  width: 100px;
-
   perspective: 1000px;
  }
 
@@ -405,12 +396,13 @@ div.card div {
   backface-visibility: hidden;
 }
 
-
-.flip-card-back {
-  color: #4c9bd6;
+.flip-card-front {
+  background-color: deepskyblue;
+  color: #c72b28;;
 }
 
-
-
-
-
+.flip-card-back {
+  background-color: deepskyblue;
+  color: #c72b28;;
+  transform: rotateY(180deg);
+}

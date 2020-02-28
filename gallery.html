@@ -33,50 +33,177 @@
             </svg> </a></li>
         </ul>
     </div>
-    <ul class="footer">
-        <li>
-          <div class="mySlides fade">
-            <img class="chicken" src="./images/team poulet/tete morgane poulet.png" >
-            <div class="text"> Chicken team number 1 </div>
-          </div>
-          <div class="mySlides fade">
-            <img class="chicken" src="./images/team poulet/tete celia poulet.png" >
-            <div class="text">Chicken team number 2 </div>
-          </div>
-          <div class="mySlides fade">
-            <img class="chicken" src="./images/team poulet/tete mae poulet.png">
-            <div class="text">Chicken team number 3 </div>
-          </div>
-        </ul>
-          <script>
-            var slideIndex = 0;
-            showSlides();
-            
-            function showSlides() {
-              var i;
-              var slides = document.getElementsByClassName("mySlides");
-              for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none"; 
-              }
-              slides[slideIndex % 3].style.display = "block"; 
-              slideIndex++;
-              setTimeout(showSlides, 4000); 
-            }
-          </script>
 
+    We made those Google Street View to see better.
+<div style="text-align: center">
 <iframe src="https://www.google.com/maps/embed?pb=!4v1582879801756!6m8!1m7!1sCAoSLEFGMVFpcFByV29nY2JTTmdWT3pxbGxJZk5qdkhUTVZ3ZXNpY092MXhaRXpV!2m2!1d46.2191986!2d6.0954088!3f356.7798376047443!4f-13.403109804597918!5f0.7820865974627469" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 <iframe src="https://www.google.com/maps/embed?pb=!4v1582880011895!6m8!1m7!1sCAoSLEFGMVFpcFBpT2FpQmRNNi0wZGIybVZnWDZXYWFqSklxOG5IanZoSF9qZXlT!2m2!1d46.2191977!2d6.0954062!3f67.68653317206585!4f-16.969295837868913!5f0.7820865974627469" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe> 
-<img  class="gallery" src="./images/IMG_20200226_154312.jpg" >
-<img  class="gallery" src="./images/IMG_20200226_145958.jpg" >
-<img  class="gallery" src="./images/IMG_2631.jpg" >
-<img  class="gallery" src="./images/IMG_2659.jpeg" >
-<img  class="gallery" src="./images/IMG_2653.jpeg" >
-<img  class="gallery" src="./images/IMG_2652.jpeg" >
-<img  class="gallery" src="./images/IMG_2634.jpg" >
-<img  class="gallery" src="./images/IMG_2632.jpg" > 
+</div>
+
+<style>
 
 
+    img {
+      vertical-align: middle;
+    }
+    
+    .container {
+      position: relative;
+      text-align: center;
+    }
+    
+    .mySlides {
+      display: none;
+    }
+    
+    .cursor {
+      cursor: pointer;
+    }
+    
 
-</body>
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 40%;
+      width: auto;
+      padding: 16px;
+      margin-top: -50px;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+    
+    .next {
+      right: 10%;
+      border-radius: 3px 0 0 3px;
+    }
+    .prev {
+      left: 10%;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    .prev:hover,
+    .next:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+      font-family: 'Myriad Pro Regular';
+    }
+    
+    .caption-container {
+      text-align: center;
+      background-color: #222;
+      padding: 2px 16px;
+      color: white;
+      height: 100px;
+    }
+    
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    
+    </style>
+    <div>
+    
+    <h2 style="text-align:center" tyle="font-family='Myriad Pro Regular'"> Gallery</h2>
+    
+    <div class="container">
+      <div class="mySlides">
+        <div class="numbertext">1/9</div>
+        <img  class="gallery" src="./images/IMG_20200226_154312.jpg" >
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">2/9</div>
+        <img  class="gallery" src="./images/IMG_20200226_145958.jpg">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">3/9</div>
+        <img  class="gallery" src="./images/IMG_2631.jpg">
+      </div>
+        
+      <div class="mySlides">
+        <div class="numbertext">4/9</div>
+        <img  class="gallery" src="./images/IMG_2659.jpeg">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">5/9</div>
+        <img  class="gallery" src="./images/face for morgane/BBL.jpg">
+      </div>
+        
+      <div class="mySlides">
+        <div class="numbertext">6/9</div>
+        <img  class="gallery" src="./images/code .png" >
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">7/9</div>
+        <img  class="gallery" src="./images/IMG_2653.jpeg" >
+      </div>
+      
+      <div class="mySlides">
+        <div class="numbertext">8/9</div>
+        <img  class="gallery" src="./images/IMG_2634.jpg" >
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">9/9</div>
+        <img  class="gallery" src="./images/IMG_2632.jpg"  >
+      </div>
+      
+     
+        
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+    
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+    </div>
+    
+    <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      //var dots = document.getElementsByClassName("demo");
+      var captionText = document.getElementById("caption");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      slides[slideIndex-1].style.display = "block";
+    //  dots[slideIndex-1].className += " active";
+    //  captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+    </script>
+  </div>
+
+
 
     </html>

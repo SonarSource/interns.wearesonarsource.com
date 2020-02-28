@@ -375,6 +375,9 @@ div.card div {
   perspective: 1000px;
  }
 
+
+div.card div {}
+
 .flip-card-inner {
   position: relative;
   width: 100%;
@@ -382,11 +385,30 @@ div.card div {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+
 }
 
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
+
+
+
+.flip-card-back {
+
+  transform: rotateY(180deg);
+}
+#ikea {
+  display: none;
+}
+#ikea + img {
+display: none;
+}
+
+
+#ikea:checked + img {
+  display: inline;
+  }
 
 .flip-card-front, .flip-card-back {
   position: absolute;
@@ -398,4 +420,8 @@ div.card div {
 
 .flip-card-back {
   transform: rotateY(180deg);
+}
+
+.centrer {
+  text-align: center;
 }

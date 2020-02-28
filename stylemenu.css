@@ -369,11 +369,9 @@ div.card div {
  }
 
 .flip-card {
-
   background-color: transparent;
-  width: 300px;
-  height: 200px;
-  border: 1px solid  #c72b28;;
+  width: 100px;
+  height: 140px;
   perspective: 1000px;
  }
 
@@ -399,12 +397,10 @@ div.card div {
 }
 
 .flip-card-front {
-  background-color: deepskyblue;
-  color: #c72b28;;
+
 }
 
 .flip-card-back {
-  background-color: deepskyblue;
-  color: #c72b28;;
+
   transform: rotateY(180deg);
 }

@@ -367,9 +367,8 @@ div.card div {
    font-size: 20px;
  }
 
+.flip-card {
 
-
- .flip-card {
   background-color: transparent;
   width: 300px;
   height: 200px;

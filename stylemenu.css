@@ -284,7 +284,7 @@ div.desc {
 }
 
 .card div {
-  display: inline-flex;
+  display: flex;
 }
 
 .card ul {
@@ -354,7 +354,6 @@ p.six {
 
 
 .spaced {
-  display: flex;
   justify-content: space-between;
 }
 

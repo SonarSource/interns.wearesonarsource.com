@@ -367,33 +367,61 @@ div.card div {
    font-size: 20px;
  }
 
-
-
 .flip-card {
+
   background-color: transparent;
-
-  width: 100%;
-  height: 200px;
-
   width: 100px;
   height: 140px;
-
   perspective: 1000px;
  }
 
--402,16 +397,10 @@ div.card div {
+<<<<<<< HEAD
+div.card div {
+=======
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+>>>>>>> 8bb8bc84e1c40da09eefd74ce2ab17a7274429d8
 }
 
-.flip-card-front {
-
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
 }
 
-.flip-card-back {
-
-
-}
+<<<<<<< HEAD
 
 .flip-card-back {
 
   transform: rotateY(180deg);
 }
+#ikea {
+  display: none;
+}
+#ikea + img {
+display: none;
+}
+
+
+#ikea:checked + img {
+  display: inline;
+  }
+=======
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; 
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+}
+>>>>>>> 8bb8bc84e1c40da09eefd74ce2ab17a7274429d8

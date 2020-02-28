@@ -177,21 +177,12 @@ table.tableau{
   height: 250px;
 }
 
-.card1 img.face {
+.card img.face {
   border-radius: 90%;
   width:35px; 
   height:35px;
 }
-.card2 img.face {
-  border-radius: 90%;
-  width:35px; 
-  height:35px;
-}
-.card4 img.face {
-  border-radius: 90%;
-  width:35px; 
-  height:35px;
-}
+
 
 .why {
   margin-top: 10px;
@@ -267,78 +258,41 @@ div.desc {
   }
 }
 
-.card1 {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  padding: 2px 16px 20px 16px;
-  border-radius: 10px;
-  background-color: deepskyblue;
+.orange {
+  background-color: #fd6a00;
 }
-.card2 {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  padding: 2px 16px 20px 16px;
-  border-radius: 10px;
-  background-color: deepskyblue;
-}.card4 {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  padding: 2px 16px 20px 16px;
-  border-radius: 10px;
-  background-color: deepskyblue;
+
+.blue {
+  background-color: #4c9bd6;
+}
+
+.red {
+  background-color: #c72b28;
 }
 
 
-.card1 p {
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 2px 16px 20px 16px;
+  border-radius: 10px;
+}
+
+
+.card p {
   padding-bottom: 10px;
   line-height: 14px;
 }
 
-.card1 div {
+.card div {
   display: inline-flex;
 }
 
-.card1 ul {
+.card ul {
   padding: 0px 12px 12px 12px;
   margin: -12px;
 }
 
-.card1 ul li {
-  display: inline-block;
-}
-
-
-.card2 p {
-  padding-bottom: 10px;
-  line-height: 14px;
-}
-
-.card2 div {
-  display: inline-flex;
-}
-
-.card2 ul {
-  padding: 0px 12px 12px 12px;
-  margin: -12px;
-}
-
-.card2 ul li {
-  display: inline-block;
-}
-
-
-.card4 p {
-  padding-bottom: 10px;
-  line-height: 14px;
-}
-
-.card4 div {
-  display: inline-flex;
-}
-
-.card4 ul {
-  padding: 0px 12px 12px 12px;
-  margin: -12px;
-}
-
-.card4 ul li {
+.card ul li {
   display: inline-block;
 }
 
@@ -397,12 +351,22 @@ p.six {
   background-color: deepskyblue;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7322c028c729e039e44619665205c9d61840c9a9
 .spaced {
   display: flex;
   justify-content: space-between;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7322c028c729e039e44619665205c9d61840c9a9
 .gallery {
-  height: 30px;
+  height: 450px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7322c028c729e039e44619665205c9d61840c9a9

@@ -1,9 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="menu.css">
+  <script>
+    function afficher(element) {
+      element.classList.add("visible");
+      element.classList.remove("invisible");
+      document.querySelector("header").style.backgroundImage = `url("${element.dataset.bgImage}")`;
+  }
+  
+    function cacher(element) {
+      element.classList.remove("visible");
+      element.classList.add("invisible");
+  }
+  
+    function entierAuHasard(max) {
+      return Math.floor(Math.random() * Math.floor(max));
+  }
+  
+    function afficheAuHasard() {
+      const elementVisible = document.querySelector(".visible");
+      cacher(elementVisible);
+      const tousLesInvisibles = document.querySelectorAll(".invisible");
+      const elementAuHasard = entierAuHasard(tousLesInvisibles.length);
+      afficher([...tousLesInvisibles][elementAuHasard]);
+  }
+  </script>
+      <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
         <title> Interns at Sonarsource </title>
-    </head>
+      </head>
     <body>
-      <h1>Interns at SonarSource</h1>
+      <header >
+        <a href = "https://www.sonarsource.com/"><img class = "logosonarsource" src="images/muHx8PQsDSMkrhKiiLNfUSqs.png" alt = "Open the official website" height = "2.5%" width = "1.5%"></a>
+        <button class = "b1 fade" alt = "Go to the text about our team"><a href = "#us" class = "menu" style="text-decoration:none">Us</a></button><a>|</a>
+        <button class = "b1 fade"><a href = "#schedule" class = "menu" style="text-decoration:none">Schedule</a></button> <a>|</a>
+        <button class = "b1 fade"><a href = "#blooper" class = "menu" style="text-decoration:none">Blooper</a></button><a> |</a>
+        <button class = "b1 fade"><a href = "#map" class = "menu" style="text-decoration:none">Map</a></button><a> |</a>
+        <button class = "b1 fade"><a href = "#thanks" class = "menu" style="text-decoration:none">Thanks</a></button><a> |</a>
+        <a href = ""><img class = "home_page" src="images/icon.png" alt = "Open the home page" height = "2.5%" width = "1.5%"></a>
+        <h1>Sonarsource is</h1>
+          <ul>
+            <li class="visible fade" data-bg-image="images/1.jpg">incredible</li>
+            <li class="invisible fade" data-bg-image="images/the-famous-grand-raout.jpg">amazing</li>
+            <li class="invisible fade " data-bg-image="images/1.jpg">unique</li>
+            <li class="invisible fade" data-bg-image="images/1.jpg">special</li>
+            <li class="invisible fade" data-bg-image="images/2.jpg">unlike any others</li>
+            <li class="invisible fade" data-bg-image="images/1.jpg">awesome</li> 
+          </ul>
+        </header> 
+      <script>
+  afficher(document.querySelector(".visible"));
+  setInterval(afficheAuHasard, 3000);
+      </script>
     </body>
 </html>

@@ -32,3 +32,12 @@
 .logosonarsource {
     float: left;
 }
+
+.fleche_haut {
+    width: 3%;
+    height: 5.9%;
+    position:static;
+    float: right;
+    margin-right: 1%;
+    margin-top: 50%;
+}

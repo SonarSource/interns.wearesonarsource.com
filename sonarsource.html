@@ -8,6 +8,7 @@
 function afficher(element) {
     element.classList.add("visible");
     element.classList.remove("invisible");
+    document.querySelector("header").style.backgroundImage = `url("${element.dataset.bgImage}")`;
 }
 
 function cacher(element) {
@@ -26,22 +27,29 @@ function afficheAuHasard() {
     const elementAuHasard = entierAuHasard(tousLesInvisibles.length);
     afficher([...tousLesInvisibles][elementAuHasard]);
 }
-
-setInterval(afficheAuHasard, 3000);
-
         </script>
+    
     </head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
     <body>
-      <h1>Sonarsource</h1>
-      <span>is</span>
+        <header>
+      <h1>Sonarsource is</h1> 
       <ul>
-          <li class="visible">incredible</li>
-          <li class="invisible">amazing</li>
-          <li class="invisible">unique</li>
-          <li class="invisible">unique</li>
-          <li class="invisible">special</li>
-          <li class="invisible">unlike any others</li>
-          <li class="invisible">awesome</li>
-      </ul>
+          <li class="visible" data-bg-image="images/1.jpg">incredible</li>
+          <li class="invisible" data-bg-image="images/2.jpg">amazing</li>
+          <li class="invisible" data-bg-image="images/1.jpg">unique</li>
+          <li class="invisible" data-bg-image="images/2.jpg">unique</li>
+          <li class="invisible" data-bg-image="images/1.jpg">special</li>
+          <li class="invisible" data-bg-image="images/2.jpg">unlike any others</li>
+          <li class="invisible" data-bg-image="images/1.jpg">awesome</li> 
+        </ul>
+        </header>
+        <script>
+afficher(document.querySelector(".visible"));
+setInterval(afficheAuHasard, 3000);
+        </script>
     </body>
 </html>

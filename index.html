@@ -1,9 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title> Interns at Sonarsource </title>
-    </head>
-    <body>
-      <h1>Interns at SonarSource</h1>
+  <head>
+    <script>  
+        function changeImage(color) { 
+            document.body.style.background = color; 
+        }
+    </script>  
+    <title> Interns at Sonarsource </title>
+  </head>
+
+  <body style = "text-align:center;"> 
+    <h1>Interns at SonarSource</h1>   
+    <p><b>Cliquez sur le bouton </b></p> 
+    <button onclick = "changeImage('blue');">Bleu</button>
+    <button onclick="document.getElementById('myImage').src='1.jpg'">1</button>
+    <button onclick = "changeImage('red');">Vert</button> 
+    <button onclick = "changeImage('green');">Rouge</button>
+    <button onclick = "changeImage('yellow');">Jaune</button> 
+      <link rel="stylesheet" href="css/css_pour_accueil.css">
+
+      <p id="demo">
     </body>
 </html>

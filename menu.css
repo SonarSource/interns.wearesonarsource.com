@@ -19,6 +19,7 @@
     border-left: 0.5%;
     height: 6.5%;
   }
+
 .header{
     float: center;
     text-align: center;
@@ -34,9 +35,11 @@
 }
 
 .fleche_haut {
-    width: 3%;
-    height: 5.9%;
-    position:static;
-    float: right;
+    width: 53px;
+    height: 53px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    margin-bottom: 1%;
     margin-right: 1%;
 }

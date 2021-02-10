@@ -1,9 +1,7 @@
-.groenland {
-    border-radius: 10px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: rgb(187, 32, 32);
-}
+body {
+    font-family: 'Chivo', sans-serif;
+    font-weight: 300;
+   }
 
 .map {
     width: 100%;

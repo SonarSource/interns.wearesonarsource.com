@@ -1,0 +1,62 @@
+h2,h1
+{
+    color: rgb(203, 48, 50);
+}
+body
+{
+    background: url(OKKK.jpg) bottom left no-repeat , url(OKKKK.jpg) no-repeat bottom right, url(OKKKKK.jpg) no-repeat bottom , url(OKK.jpg) no-repeat center, black
+}
+p
+{
+    color:white ;
+}
+h1,body
+{
+    text-align: center;
+}
+p
+{
+    font-size: 13.3px;
+}
+.logoSonarSource
+{
+    float:left;
+}
+.dessous
+{
+    clear: both;
+}
+h1
+{
+    font-size: 33.3px;
+}
+h2
+{
+    font-size: 20px;
+}
+.paratexte
+{
+    font-style: oblique;
+}
+h1
+{
+    border: 2.5px rgb(203, 48, 50) double ;
+}
+.imagecentre
+{
+    float: right;
+}
+.prespers
+{
+    text-align: left;
+}
+.prenom
+{
+    font-size: medium;
+    color:rgb(203, 48, 50)
+}
+.love
+{
+    font-style: italic;
+    text-decoration: overline underline;
+}

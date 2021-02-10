@@ -1,25 +1,50 @@
 .menu {
-    font-size: 280%;
-    color: black;
+    font-size: 200%;
+    color: rgb(255, 255, 255);
     background-color: transparent;
-    font-variant: small-caps;
-    font-family: century serif;
     display: inline-block;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bolder;
+    margin-left: 0;
 }
-
+.home_page{
+    background-color: transparent;
+    border: transparent;
+    float:right ;
+}
 .b1 {
     border: transparent;
-    border-color: transparent;
     background-color: transparent;
-    margin-right: 2.5%;
-    margin-left: 2.5%;
+    font-family: 'Inconsolata', monospace;
+}
+.header {
+    font-family: 'Inconsolata', monospace;
+    font-weight: bolder;
+    position: fixed;
+    margin-right: 10px;
+    }
+
+.logosonarsource {
+    float: left;
+    margin-right: 10px;
 }
 
-.vl {
-    border-left: 0.5%;
-    height: 6.5%;
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1s;
+    animation-name: fade;
+    animation-duration: 1s;
+    }
+    @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+    }
+    @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
   }
 
+<<<<<<< HEAD
 .header{
     float: center;
     text-align: center;
@@ -28,12 +53,31 @@
     padding-right: 1.8%;
     padding-bottom: 0.5%;
     padding-left: 1.8%;
+=======
+
+header{
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    top: 20%;
+    padding-bottom: 200px;
+    font-size: 200%;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bolder;
+    color: white;
+}
+body{
+    background-image: url(images/sonarsource-rips-technologies-acquisition-code-security.jpg);
+>>>>>>> 0e12183ae5b5647d73ab2301be46084e5abb6f7b
 }
 
-.logosonarsource {
-    float: left;
+h1 {
+padding-top: 100px;
+text-align: center;
+    
 }
 
+<<<<<<< HEAD
 .fleche_haut {
     width: 53px;
     height: 53px;
@@ -42,4 +86,21 @@
     bottom: 0px;
     margin-bottom: 1%;
     margin-right: 1%;
+=======
+ul {
+    list-style: none;
+    padding: 0;
+    font-size: 300%;
+    text-align: center;
+
+}
+
+.visible {
+    display: list-item;
+
+    }
+
+.invisible {
+    display: none;
+>>>>>>> 0e12183ae5b5647d73ab2301be46084e5abb6f7b
 }

@@ -1,6 +1,7 @@
 h2.dessous,h1.dessous
 {
-    color: rgb(255, 255, 255);
+    color:rgb(27, 41, 56);
+    font-size: 200%;
 }
 div.presbody
 {
@@ -8,9 +9,9 @@ div.presbody
 }
 p
 {
-    color:black ;
+    color:rgb(27, 41, 56) ;
 }
-h1.dessous,body
+h1.dessous
 {
     text-align: center;
 }

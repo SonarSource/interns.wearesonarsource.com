@@ -1,17 +1,17 @@
 body{
-    background-image: url(images/1.jpg);
+    background-image: url(images/background-4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Inconsolata', monospace;
+    margin: 0;
     font-weight: bolder;
 }
 .menu {
     font-size: 100%;
-    color: rgb(255, 255, 255);
+    color: rgb(27, 41, 56);
     background-color: transparent;
     display: inline-block;
     font-family: 'Inconsolata', monospace;
-    font-weight: bolder;
     margin-left: 0;
 
 }
@@ -27,7 +27,6 @@ body{
 }
 .header {
     font-family: 'Inconsolata', monospace;
-    font-weight: bolder;
     position: fixed;
     margin-right: 10px;
     text-align: center;
@@ -55,14 +54,14 @@ header{
     padding-bottom: 200px;
     font-size: 200%;
     font-family: 'Inconsolata', monospace;
-    font-weight: bolder;
-    color: white;
+    color: rgb(27, 41, 56);
 }
 
 .titre12 {
     padding-top: 100px;
     text-align: center;
     text-decoration: none;
+    font-weight: bolder;
     
 }
 
@@ -92,7 +91,7 @@ ul {
 
 a.menu:hover  {
     text-decoration: underline;
-    color: white;
+    color: rgb(27, 41, 56);
   }
 a.menu{
     text-decoration: none;
@@ -142,14 +141,14 @@ a.menu{
     top: 40%;
     left: 0;
     text-align: right;
-    color: #fffb07;
+    color: #ff0707;
     font-family: cursive;
 }
 
 .emma{
     position: absolute;
     top: 80%;
-    color: rgb(107, 11, 107);
+    color: #fffb07;
     font-family: cursive;
     margin-left: 300px;
     left: 10px;
@@ -166,11 +165,20 @@ a.menu{
 
 .maelys{
     position: absolute;
-    top: 10%;
-    color: rgb(255, 0, 0);
+    top: 15%;
+    color: rgb(115, 6, 240);
     font-family: cursive;
     margin-left: 15%;
-    left: 10px;
+    left: 10%;
+}
+.maelys1 {
+    position: absolute;
+    top: 10%;
+    color: rgb(115, 6, 240);
+    font-family: cursive;
+    margin-left: 15%;
+    left: 5%;
+
 }
 
 
@@ -196,11 +204,10 @@ a.menu{
 }
 
 
-
 .c3{
     position: absolute;
     top: 70%;
-    color: violet;
+    color: rgb(238, 106, 96);
     font-family: cursive;
     margin-left: 50px;
     font-size: 400%;
@@ -246,7 +253,7 @@ a.menu{
     background-image: url('photo%20oli.png');
 }
 .slide1{
-    background: url("images/IMG_20210210_144745.jpg") left/50% no-repeat, url('photo%20JB.png') right/50% no-repeat
+    background: url("images/IMG_20210210_144745.jpg") left/50% no-repeat, url("images/photo%20JB.png") right/50% no-repeat
 }
 
 
@@ -278,3 +285,22 @@ a.menu{
     width: 160px;
 	height: 160px;
     max-width: 100%;
+    margin:0 auto;
+    display: block;
+}
+.lettre{
+    color:  rgba(224, 66, 119, 0.932);
+}
+
+.lettre1{
+    color:  #62dd10f3;
+}
+.lettre2{
+    color:  rgba(61, 226, 231, 0.932);
+}
+.lettre3{
+    color: rgba(88, 44, 207, 0.952);
+}
+.lettre4{
+    color: rgba(255, 234, 42, 0.925);
+}

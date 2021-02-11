@@ -47,14 +47,15 @@
 header{
     background-repeat: no-repeat;
     background-size: cover;
-
     top: 20%;
     padding-bottom: 200px;
     font-size: 200%;
     font-family: 'Inconsolata', monospace;
     font-weight: bolder;
     color: white;
-}
+
+
+  }
 
 h1 {
 padding-top: 100px;

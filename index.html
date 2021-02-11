@@ -43,11 +43,11 @@
     <body>
       <header >
         <a href = "https://www.sonarsource.com/"><img class = "logosonarsource" src="images/muHx8PQsDSMkrhKiiLNfUSqs.png" alt = "Open the official website" height = "2.5%" width = "1.5%"></a>
-        <button class = "b1 fade" alt = "Go to the text about our team"><a href = "presentation.html" class = "menu" >Us</a></button><a>|</a>
-        <button class = "b1 fade"><a href = "./schedule.html" class = "menu" >Schedule</a></button> <a>|</a>
-        <button class = "b1 fade"><a href = "./bétisier.html" class = "menu" >Blooper</a></button><a> |</a>
-        <button class = "b1 fade"><a href = "./map.html" class = "menu">Map</a></button><a> |</a>
-        <button class = "b1 fade"><a href = "./thanks.html" class = "menu" >Thanks</a></button><a> |</a>
+        <button class = "b1 fade" alt = "Go to the text about our team"><a href = "#presentation" class = "menu" >Us</a></button><a>|</a>
+        <button class = "b1 fade"><a href = "#schedule" class = "menu" >Schedule</a></button> <a>|</a>
+        <button class = "b1 fade"><a href = "#blooper" class = "menu" >Blooper</a></button><a> |</a>
+        <button class = "b1 fade"><a href = "#map" class = "menu">Map</a></button><a> |</a>
+        <button class = "b1 fade"><a href = "#thanks" class = "menu" >Thanks</a></button><a> |</a>
         <a href = "interns.wearesonarsource.com/index.html"><img class = "home_page" src="images/icon.png" alt = "Open the home page" height = "2.5%" width = "1.5%"></a>
 
         <h1>Sonarsource is</h1>
@@ -64,15 +64,9 @@
   afficher(document.querySelector(".visible"));
   setInterval(afficheAuHasard, 3000);
       </script>
-      <div class = "footer">
-        <p>© 2021, Interns in SonarSource. All content is copyright protected
-          <br>
-          <a href = "privacy_etc.html" style="text-decoration:none">Privacy Policy</a> | <a href = "privacy_etc.html" style="text-decoration:none">Terms and Conditions</a>
-        </p>
-      </div>
 
 <!--La partie sur la map avec les différents bureaux-->
-      <img src="map_officies_v2.png" usemap="#image-map" class = "map">
+      <img id = "map" src="map_officies_v2.png" usemap="#image-map" class = "map">
 
       <map name="image-map">
           <area target="" alt="Austin" title="Austin" href="#austin" coords="491,448,521,491" shape="rect">
@@ -86,8 +80,9 @@
       <br>
       When SonarSource open an office in Austin, it was a big step for them because .. years after Olivier, Freddy and Simon had their great idea of the code analyzer, they had employes in the other side of the Atlantic sea !
       <br>
-      Here is the team in Austin :
-      <img src="" alt="">
+      Here is the pictures :
+      <br>
+      <img src="images/austin_office.jpg" alt="The office of Austin" width="450" height="300">
       <br>
       See where it is located : 
       <br>
@@ -102,8 +97,9 @@
       <br>
       The office in Annecy oppened in Decemeber, 2019 with a building of ... square metters, on 2 floors.
       <br>
-      Here is the team in Annecy : 
-      <img src="" alt="">
+      Here is the pictures :
+      <br>
+      <img src="images/annecy_office.jpg" alt="The office of Annecy" width="450" height="300">
       <br>
       See where it is located : 
       <br>
@@ -118,8 +114,9 @@
       <br>
       The office in Geneva is now in the building of the popular firm IKEA since December, 2018. It has more than .. square metters, .. open spaces and more rooms like the zen one, the eating one or the sport one.
       <br>
-      Here is the team in the Geneva office : 
-      <img src="" alt="">
+      Here is the pictures : 
+      <br>
+      <img src="images/geneva_office.jpg" alt="The office of Geneva" width="450" height="300">
       <br>
       See where it is located : 
       <br>
@@ -133,8 +130,9 @@
       <h2>The office in Bochum</h2>
       The office in Bochum was, before SonarSource buy their society, a company specialized on the security in the net named ... Now they are part of the world SonarSource team since ...
       <br>
-      Here the Bochum team :
-      <img src="" alt="">
+      Here is the pictures :
+      <br>
+      <img src="images/bochum_office.jpg" alt="The office of Bochum" width="450" height="300">
       <br>
       See where it is located : 
       <br>
@@ -145,8 +143,8 @@
   </p>
 
 
-
-      <h1 class="titre">Schedule of the week</h1>
+<!--Schedeule-->
+      <h1 id = "schedule" class="titre">Schedule of the week</h1>
 
       <div class="flip-card0 flip-card">
             <div class="flip-card-inner">
@@ -224,6 +222,13 @@
           
       </div>
     </div>   
-
+    
+    <!--Laissez le en bas bande d'andouille-->
+    <div class = "footer">
+      <p>© 2021, Interns in SonarSource. All content is copyright protected
+        <br>
+        <a href = "privacy_etc.html" style="text-decoration:none">Privacy Policy</a> | <a href = "privacy_etc.html" style="text-decoration:none">Terms and Conditions</a>
+      </p>
+    </div>
     </body>
 </html>

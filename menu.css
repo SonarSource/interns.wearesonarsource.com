@@ -47,16 +47,12 @@
 header{
     background-repeat: no-repeat;
     background-size: cover;
-
     top: 20%;
     padding-bottom: 200px;
     font-size: 200%;
     font-family: 'Inconsolata', monospace;
     font-weight: bolder;
     color: white;
-}
-body{
-    background-image: url(images/sonarsource-rips-technologies-acquisition-code-security.jpg);
 }
 
 h1 {
@@ -65,15 +61,6 @@ text-align: center;
     
 }
 
-.fleche_haut {
-    width: 53px;
-    height: 53px;
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-    margin-bottom: 1%;
-    margin-right: 1%;
-}
 ul {
     list-style: none;
     padding: 0;
@@ -89,4 +76,28 @@ ul {
 
 .invisible {
     display: none;
+
+
+
 }
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+ }
+
+a.menu:hover  {
+    text-decoration: underline;
+    color: white;
+  }
+a.menu{
+    text-decoration: none;
+}
+ .fleche_haut {
+     position: fixed;
+     bottom: 0;
+     right: 0;
+ }

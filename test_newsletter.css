@@ -1,0 +1,13 @@
+.notif {
+    width: 400px; 
+    height: 255px;
+    background-color: rgb(55, 175, 211);
+}
+div {
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif		;
+}
+
+.p {
+    margin-left: 5px;
+    margin-right: 5px;
+}

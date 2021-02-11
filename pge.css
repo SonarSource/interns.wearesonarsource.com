@@ -1,20 +1,20 @@
-h2,h1
+h2.dessous,h1.dessous
 {
     color: rgb(203, 48, 50);
 }
-body
+div.presbody
 {
-    background: url(OKKK.jpg) bottom left no-repeat , url(OKKKK.jpg) no-repeat bottom right, url(OKKKKK.jpg) no-repeat bottom , url(OKK.jpg) no-repeat center, black
+    background: url(OKKK.jpg) bottom left no-repeat , url(OKKKK.jpg) no-repeat bottom right, url(OKKKKK.jpg) no-repeat bottom , url(OKK.jpg) no-repeat center ;
 }
 p
 {
-    color:white ;
+    color:black ;
 }
-h1,body
+h1.dessous,body
 {
     text-align: center;
 }
-p
+p.dessous
 {
     font-size: 13.3px;
 }
@@ -26,11 +26,11 @@ p
 {
     clear: both;
 }
-h1
+h1.dessous
 {
     font-size: 33.3px;
 }
-h2
+h2.dessous
 {
     font-size: 20px;
 }
@@ -38,7 +38,7 @@ h2
 {
     font-style: oblique;
 }
-h1
+h1.dessous
 {
     border: 2.5px rgb(203, 48, 50) double ;
 }

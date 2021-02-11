@@ -72,9 +72,6 @@ ul {
 
 .invisible {
     display: none;
-
-
-
 }
 .footer {
     left: 0;
@@ -258,4 +255,9 @@ a.menu{
 
 .thanks .hidden {
     display: none;
+}
+
+.tache1 {
+    position: relative;
+    margin-top: 45px;
 }

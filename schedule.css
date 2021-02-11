@@ -44,8 +44,8 @@
 
 .txt{
   text-align: center;
-  margin-top: 50%;
-  margin-bottom: 50%;
+  margin-top: 25%;
+  margin-bottom: 25%;
   font-size: xx-large; 
 }
 
@@ -94,4 +94,9 @@
 
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
+}
+
+.titre {
+  text-align: center;
+  text-decoration: underline;
 }

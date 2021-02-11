@@ -1,3 +1,8 @@
+body{
+    background-image: url(images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .menu {
     font-size: 100%;
     color: rgb(255, 255, 255);
@@ -52,9 +57,10 @@ header{
     color: white;
 }
 
-h1 {
-padding-top: 100px;
-text-align: center;
+.titre12 {
+    padding-top: 100px;
+    text-align: center;
+    text-decoration: none;
     
 }
 
@@ -260,4 +266,13 @@ a.menu{
 .tache1 {
     position: relative;
     margin-top: 45px;
+}
+
+.tachedecouleur {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 160px;
+	height: 160px;
+    max-width: 100%;
+
 }

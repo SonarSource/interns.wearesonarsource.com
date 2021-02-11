@@ -5,8 +5,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="menu.css">
-  <link rel="stylesheet" href="pge.css" />
-  <link rel="stylesheet" href="../css/map.css">
+  <link rel="stylesheet" href="pge.css">
   <link rel="stylesheet" href="map.css">
   <link href="https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i" rel="stylesheet">
   <meta charset="utf-8">
@@ -72,7 +71,7 @@
             </ul>
           </ul>
         </nav>
-        <h1>Sonarsource is</h1>
+        <h1 class="titre12">Sonarsource is</h1>
           <ul>
             <li class="visible fade" data-bg-image="images/1.jpg">incredible</li>
             <li class="invisible fade" data-bg-image="images/the-famous-grand-raout.jpg">amazing</li>
@@ -87,6 +86,8 @@
   setInterval(afficheAuHasard, 3000);
       </script>
 
+
+<img src="images/1--removebg-preview.png" alt="" class="tachedecouleur">
 <!-- Présenentation de us-->   
 
     <div id = "presentation" class="presbody">
@@ -107,7 +108,10 @@
       <P class="prespers"><span class="prenom">J-B</span> is a sonarsource developer and he is our best mentor during this internship </P>
       <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
     </div>
-
+  
+  
+  
+<img src="images/2--removebg-preview.png" alt="" class="tachedecouleur">
 <!--Schedeule-->
 <div class="schedule">
 <h1 id = "schedule" class="titre">Schedule of the week</h1>
@@ -193,6 +197,8 @@
   </div>   
 </div>
 
+<img src="images/4-removebg-preview.png" alt="" class="tachedecouleur">
+
 <!--La partie sur la map avec les différents bureaux-->
 
       <map name="image-map">
@@ -271,7 +277,7 @@
           <iframe src="https://www.google.com/maps/embed?pb=!4v1612963902506!6m8!1m7!1sFNlpdLr_HymnNNoHOdy8tw!2m2!1d51.44510262203197!2d7.257187401792442!3f144.37989358267652!4f-1.9192016288453715!5f0.7820865974627469" width="300" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
       </div>
   </p>
-
+  <img src="images/7-removebg-preview.png" alt="" class="tachedecouleur">
 <!--ajout remerciements-->
     <section class="thanks" id="thanks">
       <a class="slides-nav" id="previous-slide" href="#thanks" onclick="slidePrecedent();">
@@ -359,22 +365,22 @@ let slideCourant = 0;
 const tousLesSlides = [...document.querySelectorAll(".thanks section")];
 
 function slideSuivant() {
-cacher(tousLesSlides[slideCourant]);
+hide(tousLesSlides[slideCourant]);
 slideCourant = (slideCourant + 1) % tousLesSlides.length;
 afficher(tousLesSlides[slideCourant]);
 }
 
 function slidePrecedent() {
-cacher(tousLesSlides[slideCourant]);
+hide(tousLesSlides[slideCourant]);
 slideCourant = (slideCourant + tousLesSlides.length - 1) % tousLesSlides.length;
 afficher(tousLesSlides[slideCourant]);
 }
 
-function afficher(element) {
+function print(element) {
 element.classList.remove("hidden");
 }
 
-function cacher(element) {
+function hide(element) {
 element.classList.add("hidden");
 }
   </script>

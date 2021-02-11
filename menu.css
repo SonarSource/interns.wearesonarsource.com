@@ -56,7 +56,8 @@ header{
     color: white;
 }
 body{
-    background-image: url(images/sonarsource-rips-technologies-acquisition-code-security.jpg);
+    color: white;
+
 }
 
 h1 {
@@ -82,6 +83,7 @@ ul {
     display: none;
 
 
+
 }
 
 .footer {
@@ -93,4 +95,12 @@ ul {
     color: white;
     text-align: center;
  }
+
+a.menu:hover  {
+    text-decoration: underline;
+    color: white;
+  }
+a.menu{
+    text-decoration: none;
+}
 

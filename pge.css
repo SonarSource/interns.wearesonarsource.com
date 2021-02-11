@@ -2,7 +2,7 @@ h2.dessous,h1.dessous
 {
     color: rgb(203, 48, 50);
 }
-body
+div.presbody
 {
     background: url(OKKK.jpg) bottom left no-repeat , url(OKKKK.jpg) no-repeat bottom right, url(OKKKKK.jpg) no-repeat bottom , url(OKK.jpg) no-repeat center ;
 }

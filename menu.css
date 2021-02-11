@@ -47,7 +47,6 @@
 header{
     background-repeat: no-repeat;
     background-size: cover;
-
     top: 20%;
     padding-bottom: 200px;
     font-size: 200%;
@@ -55,8 +54,6 @@ header{
     font-weight: bolder;
     color: white;
 }
-
-
 h1 {
 padding-top: 100px;
 text-align: center;
@@ -82,7 +79,6 @@ ul {
 
 
 }
-
 .footer {
     position: fixed;
     left: 0;

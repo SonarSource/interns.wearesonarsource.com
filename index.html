@@ -5,7 +5,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="menu.css">
-  <link rel="stylesheet" href="../css/map.css">
+  <link rel="stylesheet" href="map.css">
   <link href="https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i" rel="stylesheet">
   <script>
     function afficher(element) {
@@ -43,11 +43,11 @@
     <body>
       <header >
         <a href = "https://www.sonarsource.com/"><img class = "logosonarsource" src="images/muHx8PQsDSMkrhKiiLNfUSqs.png" alt = "Open the official website" height = "2.5%" width = "1.5%"></a>
-        <button class = "b1 fade" alt = "Go to the text about our team"><a href = "presentation.html" class = "menu" >Us</a></button><a>|</a>
-        <button class = "b1 fade"><a href = "./schedule.html" class = "menu" >Schedule</a></button> <a>|</a>
-        <button class = "b1 fade"><a href = "./bétisier.html" class = "menu" >Blooper</a></button><a> |</a>
-        <button class = "b1 fade"><a href = "./map.html" class = "menu">Map</a></button><a> |</a>
-        <button class = "b1 fade"><a href = "./thanks.html" class = "menu" >Thanks</a></button><a> |</a>
+        <button class = "b1 fade" alt = "Go to the text about our team"><a href = "#presentation" class = "menu" >Us</a></button><a>|</a>
+        <button class = "b1 fade"><a href = "#schedule" class = "menu" >Schedule</a></button> <a>|</a>
+        <button class = "b1 fade"><a href = "#blooper" class = "menu" >Blooper</a></button><a> |</a>
+        <button class = "b1 fade"><a href = "#map" class = "menu">Map</a></button><a> |</a>
+        <button class = "b1 fade"><a href = "#thanks" class = "menu" >Thanks</a></button><a> |</a>
         <a href = "interns.wearesonarsource.com/index.html"><img class = "home_page" src="images/icon.png" alt = "Open the home page" height = "2.5%" width = "1.5%"></a>
 
         <h1>Sonarsource is</h1>
@@ -64,15 +64,9 @@
   afficher(document.querySelector(".visible"));
   setInterval(afficheAuHasard, 3000);
       </script>
-      <div class = "footer">
-        <p>© 2021, Interns in SonarSource. All content is copyright protected
-          <br>
-          <a href = "privacy_etc.html" style="text-decoration:none">Privacy Policy</a> | <a href = "privacy_etc.html" style="text-decoration:none">Terms and Conditions</a>
-        </p>
-      </div>
 
 <!--La partie sur la map avec les différents bureaux-->
-      <img src="map_officies_v2.png" usemap="#image-map" class = "map">
+      <img id = "map" src="map_officies_v2.png" usemap="#image-map" class = "map">
 
       <map name="image-map">
           <area target="" alt="Austin" title="Austin" href="#austin" coords="491,448,521,491" shape="rect">
@@ -82,12 +76,13 @@
       </map>
   
   <p id = "austin">
-      <h2 class = "h2thibault">The office in Austin.</h2>
+      <h2>The office in Austin.</h2>
       <br>
       When SonarSource open an office in Austin, it was a big step for them because .. years after Olivier, Freddy and Simon had their great idea of the code analyzer, they had employes in the other side of the Atlantic sea !
       <br>
-      Here is the team in Austin :
-      <img src="" alt="">
+      Here is the pictures :
+      <br>
+      <img src="images/austin_office.jpg" alt="The office of Austin" width="450" height="300">
       <br>
       See where it is located : 
       <br>
@@ -98,12 +93,13 @@
   </p>
   <br>
   <p id = "annecy">
-      <h2 class = "h2thibault">The office in Annecy</h2>
+      <h2>The office in Annecy</h2>
       <br>
       The office in Annecy oppened in Decemeber, 2019 with a building of ... square metters, on 2 floors.
       <br>
-      Here is the team in Annecy : 
-      <img src="" alt="">
+      Here is the pictures :
+      <br>
+      <img src="images/annecy_office.jpg" alt="The office of Annecy" width="450" height="300">
       <br>
       See where it is located : 
       <br>
@@ -111,14 +107,16 @@
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2774.4185694501607!2d6.125846315979851!3d45.942919479109506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478b85e4119cc9a3%3A0x1017ffd58d1cd807!2sSonarSource%20France!5e0!3m2!1sen!2sch!4v1612963604160!5m2!1sen!2sch" width="300" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
           <iframe src="https://www.google.com/maps/embed?pb=!4v1612965018662!6m8!1m7!1ssdJYFqN04UImlbfHCH5EfQ!2m2!1d45.94300217703938!2d6.128077180749482!3f311.3831016681747!4f-0.5895972317851914!5f0.7820865974627469" width="300" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>    </div>
   </p>
+  </div>
   <br>
   <p id = "geneva">
-      <h2 class = "h2thibault">The office in Geneva</h2>
+      <h2>The office in Geneva</h2>
       <br>
       The office in Geneva is now in the building of the popular firm IKEA since December, 2018. It has more than .. square metters, .. open spaces and more rooms like the zen one, the eating one or the sport one.
       <br>
-      Here is the team in the Geneva office : 
-      <img src="" alt="">
+      Here is the pictures : 
+      <br>
+      <img src="images/geneva_office.jpg" alt="The office of Geneva" width="450" height="300">
       <br>
       See where it is located : 
       <br>
@@ -129,11 +127,12 @@
   </p>
   <br>
   <p id = "bochum">
-      <h2 class = "h2thibault">The office in Bochum</h2>
+      <h2>The office in Bochum</h2>
       The office in Bochum was, before SonarSource buy their society, a company specialized on the security in the net named ... Now they are part of the world SonarSource team since ...
       <br>
-      Here the Bochum team :
-      <img src="" alt="">
+      Here is the pictures :
+      <br>
+      <img src="images/bochum_office.jpg" alt="The office of Bochum" width="450" height="300">
       <br>
       See where it is located : 
       <br>
@@ -141,8 +140,14 @@
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.727612358408!2d7.255258716131826!3d51.44479607962491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b920164070f539%3A0xc6b094a9a4375bf0!2sSonarSource%20GmbH!5e0!3m2!1sen!2sch!4v1612963852668!5m2!1sen!2sch" width="300" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
           <iframe src="https://www.google.com/maps/embed?pb=!4v1612963902506!6m8!1m7!1sFNlpdLr_HymnNNoHOdy8tw!2m2!1d51.44510262203197!2d7.257187401792442!3f144.37989358267652!4f-1.9192016288453715!5f0.7820865974627469" width="300" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
       </div>
-  </p>
-      <h1 class="titre">Schedule of the week</h1>
+  </p>\
+
+<!--Schedeule-->
+      <h1 id = "schedule" class="titre">Schedule of the week</h1>
+
+  <div class="schedule">
+    <h2 class="titre">Schedule of the week</h2>
+>>>>>>> 0ffb440076ffc620162f90672c52d5ea8606c9f9
 
       <div class="flip-card0 flip-card">
             <div class="flip-card-inner">
@@ -219,7 +224,23 @@
           </div>
           
       </div>
+<<<<<<< HEAD
     </div>   
+    
+    <!--Laissez le en bas bande d'andouille-->
+    <div class = "footer">
+      <p>© 2021, Interns in SonarSource. All content is copyright protected
+        <br>
+        <a href = "privacy_etc.html" style="text-decoration:none">Privacy Policy</a> | <a href = "privacy_etc.html" style="text-decoration:none">Terms and Conditions</a>
+      </p>
+    </div>
+=======
+    </div>
+  </div>
+    
 
+         
+
+>>>>>>> 38b028d2506ba8bc1b38d4431823bb0fe7165971
     </body>
 </html>

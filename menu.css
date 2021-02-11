@@ -53,9 +53,7 @@ header{
     font-family: 'Inconsolata', monospace;
     font-weight: bolder;
     color: white;
-
-
-  }
+}
 
 h1 {
 padding-top: 100px;
@@ -82,9 +80,7 @@ ul {
 
 
 }
-
 .footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;

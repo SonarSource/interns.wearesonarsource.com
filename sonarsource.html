@@ -3,53 +3,48 @@
     <head>
         <title> Sonarsource is ... </title>
         <link rel="stylesheet" type="text/css" href="sonarsource.css">
-        <script type="text/javascript">
 
-function afficher(element) {
-    element.classList.add("visible");
-    element.classList.remove("invisible");
-    document.querySelector("header").style.backgroundImage = `url("${element.dataset.bgImage}")`;
-}
-
-function cacher(element) {
-    element.classList.remove("visible");
-    element.classList.add("invisible");
-}
-
-function entierAuHasard(max) {
-    return Math.floor(Math.random() * Math.floor(max));
-}
-
-function afficheAuHasard() {
-    const elementVisible = document.querySelector(".visible");
-    cacher(elementVisible);
-    const tousLesInvisibles = document.querySelectorAll(".invisible");
-    const elementAuHasard = entierAuHasard(tousLesInvisibles.length);
-    afficher([...tousLesInvisibles][elementAuHasard]);
-}
-        </script>
-    
     </head>
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
     <body>
+               
+     
         <header>
       <h1>Sonarsource is</h1> 
       <ul>
-          <li class="visible" data-bg-image="images/1.jpg">incredible</li>
-          <li class="invisible" data-bg-image="images/2.jpg">amazing</li>
-          <li class="invisible" data-bg-image="images/1.jpg">unique</li>
-          <li class="invisible" data-bg-image="images/2.jpg">unique</li>
-          <li class="invisible" data-bg-image="images/1.jpg">special</li>
-          <li class="invisible" data-bg-image="images/2.jpg">unlike any others</li>
-          <li class="invisible" data-bg-image="images/1.jpg">awesome</li> 
-        </ul>
-        </header>
+        <li>
+          <div class="mySlides fade">
+            <img class="fond" src="images/1.jpg" alt="" >
+            <div class="text"> 1 </div>
+          </div>
+          <div class="mySlides fade">
+            <img class="fond" src="images/2.jpg" alt="" >
+            <div class="text"> 2 </div>
+          </div>
+          <div class="mySlides fade">
+            <img class="fond" src="images/1.jpg" alt="">
+            <div class="text"> 3 </div>
+          </div>
+    
+        </li>
         <script>
-afficher(document.querySelector(".visible"));
-setInterval(afficheAuHasard, 3000);
-        </script>
+            var slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none"; 
+              }
+              slides[slideIndex % 3].style.display = "block"; 
+              slideIndex++;
+              setTimeout(showSlides, 2000); 
+            }
+          </script>
+        </header>
     </body>
 </html>

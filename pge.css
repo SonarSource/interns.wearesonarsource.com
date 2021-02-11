@@ -38,7 +38,7 @@ h2.dessous
 {
     font-style: oblique;
 }
-h1.dessous
+div.dessous
 {
     border: 2.5px rgb(203, 48, 50) double ;
 }
@@ -59,4 +59,8 @@ h1.dessous
 {
     font-style: italic;
     text-decoration: overline underline;
+}
+div.dessous .test
+{
+    position: center;
 }

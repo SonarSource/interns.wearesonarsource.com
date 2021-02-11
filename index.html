@@ -100,7 +100,7 @@
       <h1 class="dessous">Interns at SonarSource
       </h1>
 
-      <h2 class="dessous">Who we are ? 
+      <h2 class="dessous">Who are we ? 
       </h2>
       <p class="dessous">We are a team of 5 Interns who are doing an internship with in the Sonarsource company
       </p>
@@ -372,13 +372,13 @@ const tousLesSlides = [...document.querySelectorAll(".thanks section")];
 function slideSuivant() {
 hide(tousLesSlides[slideCourant]);
 slideCourant = (slideCourant + 1) % tousLesSlides.length;
-afficher(tousLesSlides[slideCourant]);
+print(tousLesSlides[slideCourant]);
 }
 
 function slidePrecedent() {
 hide(tousLesSlides[slideCourant]);
 slideCourant = (slideCourant + tousLesSlides.length - 1) % tousLesSlides.length;
-afficher(tousLesSlides[slideCourant]);
+print(tousLesSlides[slideCourant]);
 }
 
 function print(element) {

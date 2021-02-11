@@ -3,6 +3,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Inconsolata', monospace;
+    margin: 0;
     font-weight: bolder;
 }
 .menu {

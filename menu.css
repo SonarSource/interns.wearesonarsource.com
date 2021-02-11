@@ -212,11 +212,11 @@ a.menu{
 
 .c5{
     position: absolute;
-    top: 10%;
+    top: 20%;
     color: rgb(11, 240, 11);
     font-family: cursive;
-    right: 700px;
-    font-size: 300%; 
+    font-size: 300%;
+    left: 5%;
 }
 
 

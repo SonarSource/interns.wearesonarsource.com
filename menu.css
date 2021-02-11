@@ -7,11 +7,10 @@ body{
 }
 .menu {
     font-size: 100%;
-    color: rgb(255, 255, 255);
+    color: rgb(27, 41, 56);
     background-color: transparent;
     display: inline-block;
     font-family: 'Inconsolata', monospace;
-    font-weight: bolder;
     margin-left: 0;
 
 }
@@ -27,7 +26,6 @@ body{
 }
 .header {
     font-family: 'Inconsolata', monospace;
-    font-weight: bolder;
     position: fixed;
     margin-right: 10px;
     text-align: center;
@@ -55,14 +53,14 @@ header{
     padding-bottom: 200px;
     font-size: 200%;
     font-family: 'Inconsolata', monospace;
-    font-weight: bolder;
-    color: white;
+    color: rgb(27, 41, 56);
 }
 
 .titre12 {
     padding-top: 100px;
     text-align: center;
     text-decoration: none;
+    font-weight: bolder;
     
 }
 
@@ -92,7 +90,7 @@ ul {
 
 a.menu:hover  {
     text-decoration: underline;
-    color: white;
+    color: rgb(27, 41, 56);
   }
 a.menu{
     text-decoration: none;
@@ -280,4 +278,20 @@ a.menu{
     max-width: 100%;
     margin:0 auto;
     display: block;
+}
+.lettre{
+    color:  rgba(224, 66, 119, 0.932);
+}
+
+.lettre1{
+    color:  #62dd10f3;
+}
+.lettre2{
+    color:  rgba(61, 226, 231, 0.932);
+}
+.lettre3{
+    color: rgba(88, 44, 207, 0.952);
+}
+.lettre4{
+    color: rgba(255, 234, 42, 0.925);
 }

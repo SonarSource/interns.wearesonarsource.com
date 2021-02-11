@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="menu.css">
   <link rel="stylesheet" href="map.css">
   <link href="https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i" rel="stylesheet">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="Untitled-3.css">
   <script>
     function afficher(element) {
       element.classList.add("visible");
@@ -24,7 +26,7 @@
   }
   
     function afficheAuHasard() {
-      const elementVisible = document.querySelector(".visible");
+      const elementVisible = document.querySelector(".visible"); 
       cacher(elementVisible);
       const tousLesInvisibles = document.querySelectorAll(".invisible");
       const elementAuHasard = entierAuHasard(tousLesInvisibles.length);
@@ -41,15 +43,39 @@
         <meta charset="utf-8">
       </head>
     <body>
-      <header >
-        <a href = "https://www.sonarsource.com/"><img class = "logosonarsource" src="images/muHx8PQsDSMkrhKiiLNfUSqs.png" alt = "Open the official website" height = "2.5%" width = "1.5%"></a>
-        <button class = "b1 fade" alt = "Go to the text about our team"><a href = "#presentation" class = "menu" >Us</a></button><a>|</a>
-        <button class = "b1 fade"><a href = "#schedule" class = "menu" >Schedule</a></button> <a>|</a>
-        <button class = "b1 fade"><a href = "#blooper" class = "menu" >Blooper</a></button><a> |</a>
-        <button class = "b1 fade"><a href = "#map" class = "menu">Map</a></button><a> |</a>
-        <button class = "b1 fade"><a href = "#thanks" class = "menu" >Thanks</a></button><a> |</a>
-        <a href = "interns.wearesonarsource.com/index.html"><img class = "home_page" src="images/icon.png" alt = "Open the home page" height = "2.5%" width = "1.5%"></a>
-
+      <header>
+        <nav>
+          <ul>
+          <li class = "b1 fade "><a href = "#presentation" class = "menu" >Us &ensp;</a>|</li>
+          <li class = "b1 fade "><a href = "#schedule" class = "menu" >Schedule &ensp;</a>|</li>
+          <li class = "b1 fade deroulant"><a href = "#blooper" class = "menu" >Blooper &ensp;</a>|
+            <ul class="sous">
+              <li><a href="#">Video</a></li>
+              <br>
+              <li><a href="#">Expectations vs Reality</a></li>
+            </ul>
+          </li>
+          <li class = "b1 fade deroulant"><a href = "#map" class = "menu">Map &ensp; </a>|
+            <ul class="sous">
+              <li><a href="#austin">Austin</a></li>
+              <br>
+              <li><a href="#geneve">Geneva</a></li>
+              <br>
+              <li><a href="#bochum">Bochum</a></li>
+              <br>
+              <li><a href="#annecy">Annecy</a></li>
+            </ul>
+          </li>
+          <li class = "b1 fade deroulant"><a href = "#thanks" class = "menu" >Thanks &ensp;</a>|
+            <ul class="sous">
+              <li><a href="#">Thanks JB</a></li> 
+              <br>
+              <li><a href="#">Thanks Oli</a></li>
+              <br>
+              <li><a href="#">Thanks Brutus</a></li>
+            </ul>
+          </ul>
+        </nav>
         <h1>Sonarsource is</h1>
           <ul>
             <li class="visible fade" data-bg-image="images/1.jpg">incredible</li>
@@ -147,7 +173,6 @@
 
   <div class="schedule">
     <h2 class="titre">Schedule of the week</h2>
->>>>>>> 0ffb440076ffc620162f90672c52d5ea8606c9f9
 
       <div class="flip-card0 flip-card">
             <div class="flip-card-inner">
@@ -224,7 +249,6 @@
           </div>
           
       </div>
-<<<<<<< HEAD
     </div>   
     
     <!--Laissez le en bas bande d'andouille-->
@@ -234,13 +258,7 @@
         <a href = "privacy_etc.html" style="text-decoration:none">Privacy Policy</a> | <a href = "privacy_etc.html" style="text-decoration:none">Terms and Conditions</a>
       </p>
     </div>
-=======
     </div>
   </div>
-    
-
-         
-
->>>>>>> 38b028d2506ba8bc1b38d4431823bb0fe7165971
     </body>
 </html>

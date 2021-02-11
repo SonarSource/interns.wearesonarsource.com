@@ -278,3 +278,6 @@ a.menu{
     width: 160px;
 	height: 160px;
     max-width: 100%;
+    margin:0 auto;
+    display: block;
+}

@@ -7,7 +7,7 @@
 }
 
 .flip-card1 .flip-card-front{
-  background-color: rgba(197, 46, 35, 0.932);  
+  background-color: rgba(224, 66, 119, 0.932);  
 }
 
 .flip-card2 {
@@ -15,7 +15,7 @@
 }
 
 .flip-card2 .flip-card-front {
-  background-color: #48cf2cf3;
+  background-color: #62dd10f3;
 }
  
 .flip-card3 {
@@ -23,7 +23,7 @@
 }
 
 .flip-card3 .flip-card-front{
-  background-color: rgba(255, 188, 5, 0.925);
+  background-color: rgba(255, 234, 42, 0.925);
 }
 
 .flip-card4 {
@@ -31,7 +31,7 @@
 }
 
 .flip-card4 .flip-card-front {
-  background-color: rgba(15, 83, 230, 0.932);
+  background-color: rgba(61, 226, 231, 0.932);
 }
 
 .flip-card0 {

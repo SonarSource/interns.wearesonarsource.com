@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="../css/map.css">
   <link rel="stylesheet" href="map.css">
   <link href="https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i" rel="stylesheet">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="Untitled-3.css">
   <script>
     function afficher(element) {
       element.classList.add("visible");
@@ -26,7 +28,7 @@
   }
   
     function afficheAuHasard() {
-      const elementVisible = document.querySelector(".visible");
+      const elementVisible = document.querySelector(".visible"); 
       cacher(elementVisible);
       const tousLesInvisibles = document.querySelectorAll(".invisible");
       const elementAuHasard = entierAuHasard(tousLesInvisibles.length);
@@ -43,6 +45,41 @@
         <meta charset="utf-8">
       </head>
     <body>
+<<<<<<< HEAD
+      <header>
+        <nav>
+          <ul>
+          <li class = "b1 fade "><a href = "#presentation" class = "menu" >Us &ensp;</a>|</li>
+          <li class = "b1 fade "><a href = "#schedule" class = "menu" >Schedule &ensp;</a>|</li>
+          <li class = "b1 fade deroulant"><a href = "#blooper" class = "menu" >Blooper &ensp;</a>|
+            <ul class="sous">
+              <li><a href="#">Video</a></li>
+              <br>
+              <li><a href="#">Expectations vs Reality</a></li>
+            </ul>
+          </li>
+          <li class = "b1 fade deroulant"><a href = "#map" class = "menu">Map &ensp; </a>|
+            <ul class="sous">
+              <li><a href="#austin">Austin</a></li>
+              <br>
+              <li><a href="#geneve">Geneva</a></li>
+              <br>
+              <li><a href="#bochum">Bochum</a></li>
+              <br>
+              <li><a href="#annecy">Annecy</a></li>
+            </ul>
+          </li>
+          <li class = "b1 fade deroulant"><a href = "#thanks" class = "menu" >Thanks &ensp;</a>|
+            <ul class="sous">
+              <li><a href="#">Thanks JB</a></li> 
+              <br>
+              <li><a href="#">Thanks Oli</a></li>
+              <br>
+              <li><a href="#">Thanks Brutus</a></li>
+            </ul>
+          </ul>
+        </nav>
+=======
       <header id = "menu">
         <a href = "https://www.sonarsource.com/"><img class = "logosonarsource" src="images/muHx8PQsDSMkrhKiiLNfUSqs.png" alt = "Open the official website" height = "2.5%" width = "1.5%"></a>
         <button class = "b1 fade" alt = "Go to the text about our team"><a href = "#presentation" class = "menu" >Us</a></button><a>|</a>
@@ -52,6 +89,7 @@
         <button class = "b1 fade"><a href = "#thanks" class = "menu" >Thanks</a></button><a> |</a>
         <a href = "interns.wearesonarsource.com/index.html"><img class = "home_page" src="images/icon.png" alt = "Open the home page" height = "2.5%" width = "1.5%"></a>
 
+>>>>>>> db3c4b3357cb56b00114e31f6973deca19aa7971
         <h1>Sonarsource is</h1>
           <ul>
             <li class="visible fade" data-bg-image="images/1.jpg">incredible</li>
@@ -271,6 +309,9 @@
                good the values of SonarSource. Olivier can be proud to have you 
                in his company., Thibault </span>
 
+  <div class="schedule">
+    <h2 class="titre">Schedule of the week</h2>
+
          <span class="morgane">Thank you very much to give us your time to teach
               us a part of your work. You also showed us how Sonarsource is special
                and we will keep that in mind for a very long time. Years after years
@@ -291,7 +332,7 @@
                (especially Thibault, I know he is a little bit annoying). I learned 
                a lot thanks to you and i will never forget it!, Maelys</span>
       </section>
-      <section class="slide hidden slide2">
+      <section class="slide hidden slide2" style="background: url('photo%20oli.png');">
           <h1>Thanks</h1>
           <h2>Oli</h2>
           <span class="thibault">I want to do a big thanks to Olivier because
@@ -319,7 +360,7 @@
                for enable me and the others to come here, Maelys</span>
 
       </section>
-      <section class="slide hidden slide3">
+      <section class="slide hidden slide3" style="background-image:url(images/brutud/photo%20montage%20brutus.jpg)">
           <h1>Thanks</h1>
           <h2>BRUTUS</h2>
           <span class="c1">to make us laugh</span>
@@ -328,6 +369,12 @@
           <span class="c4">WAOUF</span>
           <span class="c5">for being such a good watch dog for the boss</span>
           
+<<<<<<< HEAD
+      </div>
+    </div>   
+    
+    <!--Laissez le en bas bande d'andouille-->
+=======
       </section>
   </section>
   <script type="text/javascript">
@@ -360,11 +407,17 @@ element.classList.add("hidden");
 <a href="#menu"><img class = "fleche_haut" src="images/fleche_haut.png" alt="Retourner en haut" width="50" height="50" style="position: fixed;bottom: 0;right: 0;margin-bottom: 8px;margin-right: 8px;"></a>
 
 <!--Laissez le en bas bande d'andouille-->
+>>>>>>> db3c4b3357cb56b00114e31f6973deca19aa7971
     <div class = "footer">
       <p>© 2021, Interns in SonarSource. All content is copyright protected
         <br>
         <a href = "privacy_etc.html" style="text-decoration:none">Privacy Policy</a> | <a href = "privacy_etc.html" style="text-decoration:none">Terms and Conditions</a>
       </p>
     </div>
+<<<<<<< HEAD
+    </div>
+  </div>
+=======
+>>>>>>> db3c4b3357cb56b00114e31f6973deca19aa7971
     </body>
 </html>

@@ -96,4 +96,8 @@ a.menu:hover  {
 a.menu{
     text-decoration: none;
 }
-
+ .fleche_haut {
+     position: fixed;
+     bottom: 0;
+     right: 0;
+ }

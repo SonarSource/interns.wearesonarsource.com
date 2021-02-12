@@ -13,23 +13,26 @@ body{
     display: inline-block;
     font-family: 'Inconsolata', monospace;
     margin-left: 0;
-
+    font-weight: bolder;
 }
 .home_page{
     background-color: transparent;
     border: transparent;
     float:right ;
+    font-weight: bolder;
 }
 .b1 {
     border: transparent;
     background-color: transparent;
     font-family: 'Inconsolata', monospace;
+    font-weight: bolder;
 }
 .header {
     font-family: 'Inconsolata', monospace;
     position: fixed;
     margin-right: 10px;
     text-align: center;
+    font-weight: bolder;
     }
 
 .fade {
@@ -45,22 +48,24 @@ body{
     @keyframes fade {
     from {opacity: .4} 
     to {opacity: 1}
-  }
+    }
 
 header{
     background-repeat: no-repeat;
     background-size: cover;
     top: 20%;
-    padding-bottom: 200px;
+    padding-bottom: 460px;
     font-size: 200%;
     font-family: 'Inconsolata', monospace;
     color: rgb(27, 41, 56);
+    font-weight: bolder;
 }
 
 .titre12 {
     padding-top: 100px;
     text-align: center;
     text-decoration: none;
+    font-weight: bolder;
     font-weight: bolder;
     
 }
@@ -69,11 +74,13 @@ ul {
     list-style: none;
     padding: 0;
     text-align: center;
+    font-weight: bolder;
 
 }
 
 .visible {
     display: list-item;
+    font-weight: lighter;
 
 }
 
@@ -250,7 +257,7 @@ a.menu{
 }
 
 .slide2 {
-    background-image: url('photo%20oli.png');
+    background-image: url('images/papa/1521.jpg');
 }
 .slide1{
     background: url("images/IMG_20210210_144745.jpg") left/50% no-repeat, url("images/photo%20JB.png") right/50% no-repeat
@@ -423,4 +430,10 @@ input {
 
 .close-btn:focus {
 	outline: none;
+}
+.mot{
+    font-size: 250%;
+    text-decoration: 5px #ff0707 wavy underline ;
+    color: white;
+    font-weight: 100;
 }

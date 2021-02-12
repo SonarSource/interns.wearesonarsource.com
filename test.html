@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="menu.css">
+  <link rel="stylesheet" href="pge.css">
+  <link rel="stylesheet" href="map.css">
+  <link href="https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i" rel="stylesheet">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="Untitled-3.css">
+  <script>
+    function afficher(element) {
+      element.classList.add("visible");
+      element.classList.remove("invisible");
+      document.querySelector("header").style.backgroundImage = `url("${element.dataset.bgImage}")`;
+  }
+  
+    function cacher(element) {
+      element.classList.remove("visible");
+      element.classList.add("invisible");
+  }
+  
+    function entierAuHasard(max) {
+      return Math.floor(Math.random() * Math.floor(max));
+  }
+  
+    function afficheAuHasard() {
+      const elementVisible = document.querySelector(".visible"); 
+      cacher(elementVisible);
+      const tousLesInvisibles = document.querySelectorAll(".invisible");
+      const elementAuHasard = entierAuHasard(tousLesInvisibles.length);
+      afficher([...tousLesInvisibles][elementAuHasard]);
+  }
+  </script>
+      <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
+        <title> Interns at Sonarsource </title>
+        <link rel="stylesheet" href="schedule.css">
+        <meta charset="utf-8">
+      </head>
+    <body>
+      <header id = "menu">
+        <nav>
+          <ul>
+          <li class = "b1 fade "><a href = "#presentation" class = "menu" >Us &ensp;</a>|</li>
+          <li class = "b1 fade "><a href = "#schedule" class = "menu" >Schedule &ensp;</a>|</li>
+          <li class = "b1 fade deroulant"><a href = "#blooper" class = "menu" >Blooper &ensp;</a>|
+            <ul class="sous">
+              <li><a href="#">Video</a></li>
+              <br>
+              <li><a href="#">Expectations vs Reality</a></li>
+            </ul>
+          </li>
+          <li class = "b1 fade deroulant"><a href = "#map" class = "menu">Map &ensp; </a>|
+            <ul class="sous">
+              <li><a href="#austin">Austin</a></li>
+              <br>
+              <li><a href="#geneva">Geneva</a></li>
+              <br>
+              <li><a href="#bochum">Bochum</a></li>
+              <br>
+              <li><a href="#annecy">Annecy</a></li>
+            </ul>
+          </li>
+          <li class = "b1 fade deroulant"><a href = "#thanks" class = "menu" >Thanks &ensp;</a>|</li>
+            </ul>
+          </ul>
+        </nav>
+        <h1>Sonarsource is</h1>
+          <ul>
+            <li class="visible fade" data-bg-image="images/1.jpg">incredible</li>
+            <li class="invisible fade" data-bg-image="images/the-famous-grand-raout.jpg">amazing</li>
+            <li class="invisible fade " data-bg-image="images/1.jpg">unique</li>
+            <li class="invisible fade" data-bg-image="images/1.jpg">special</li>
+            <li class="invisible fade" data-bg-image="images/2.jpg">unlike any others</li>
+            <li class="invisible fade" data-bg-image="images/1.jpg">awesome</li> 
+          </ul>
+        </header> 
+      <script>
+  afficher(document.querySelector(".visible"));
+  setInterval(afficheAuHasard, 3000);
+      </script>

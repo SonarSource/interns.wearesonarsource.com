@@ -263,3 +263,7 @@ a.menu{
     position: relative;
     margin-top: 45px;
 }
+
+img {
+    border-radius: 20px;
+}

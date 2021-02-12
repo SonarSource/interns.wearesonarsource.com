@@ -31,10 +31,6 @@ h2.dessous
 {
     font-style: oblique;
 }
-.prespers
-{
-    text-align: left;
-}
 .prenom
 {
     font-size: medium;
@@ -52,27 +48,62 @@ div.dessous .test
 .IMAGE1
 {
     position: absolute;
-  top:1% ;left: 2%;
+  top:10% ;left: 2%;
 }
 .parent
 {
 position: relative;
+min-height: 1700px;
 }
 .IMAGE2
 {
     position: absolute;
-  top:1% ;left: 45%;
+  top:10% ;left: 45%;
 }.IMAGE3
 {
     position: absolute;
-  top:6% ;left: 25%;
+  top:40% ;left: 25%;
 }.IMAGE4
 {
     position: absolute;
-  top:6% ;left: 69%;
+  top:40% ;left: 69%;
 }
 .IMAGE5
 {
     position: absolute;
-   top: 8%; left: 50%;
+   top: 70%; left: 40%;
+}
+.prespersMA
+{
+    position: absolute;
+    top: 15%;left: 75%;
+}
+.prespersMO
+{
+    position: absolute;
+    top:30%;left:60%;
+}
+.prespersT
+{
+    position: absolute;
+    top:30%;left:2%;
+}
+.prespersA
+{
+    position: absolute;
+    top:60%;left:5%;
+}
+.prespersE
+{
+    position: absolute;
+    top:60%;left:55%;
+}
+.prespersJ
+{
+    position: absolute;
+    top:80%;left:60%;
+}
+.TITREPRES
+{
+    text-align: center;
 }

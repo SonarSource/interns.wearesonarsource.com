@@ -442,3 +442,41 @@ input {
 .brutus{
     color: white;
 }
+
+.photooli2{
+    width: 20%;
+    height: 90%;
+    position: absolute;
+    right:15% ;
+}
+
+.photooli1{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+}
+
+.photopos{
+    position: relative;
+    min-height : 700px;
+}
+
+.ceo{
+    text-align: center;
+    font-size: 20px;
+}
+.EvsR{
+    text-align:center;
+}
+
+.reussi {
+    width:30%;
+    height: 60%;
+}
+
+.loupe{
+    width: 30%;
+    height: 70%;
+}

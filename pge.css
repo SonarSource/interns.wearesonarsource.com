@@ -61,13 +61,18 @@ position: relative;
 .IMAGE2
 {
     position: absolute;
-  top:50% ;left: 60%;
+  top:50% ;left: 52%;
 }.IMAGE3
 {
     position: absolute;
-  top:100% ;left: 10%;
+  top:100% ;left: 15%;
 }.IMAGE4
 {
     position: absolute;
-  top:100% ;left: 70%;
+  top:100% ;left: 68%;
+}
+.IMAGE5
+{
+    position: absolute;
+   top: 50%; left: 50%;
 }

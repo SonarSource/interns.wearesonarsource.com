@@ -52,7 +52,7 @@ div.dessous .test
 .IMAGE1
 {
     position: absolute;
-  top:50% ;left: 5%;
+  top:1% ;left: 2%;
 }
 .parent
 {
@@ -61,13 +61,18 @@ position: relative;
 .IMAGE2
 {
     position: absolute;
-  top:50% ;left: 60%;
+  top:1% ;left: 45%;
 }.IMAGE3
 {
     position: absolute;
-  top:100% ;left: 10%;
+  top:6% ;left: 25%;
 }.IMAGE4
 {
     position: absolute;
-  top:100% ;left: 70%;
+  top:6% ;left: 69%;
+}
+.IMAGE5
+{
+    position: absolute;
+   top: 8%; left: 50%;
 }

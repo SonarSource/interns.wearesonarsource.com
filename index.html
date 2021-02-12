@@ -392,6 +392,48 @@ element.classList.add("hidden");
 
 <!--Le touchez surtout pas svp c important c la fleche qui fait remonter en haut-->
 <a href="#menu"><img class = "fleche_haut" src="images/fleche_haut.png" alt="Retourner en haut" width="50" height="50" style="position: fixed;bottom: 0;right: 0;margin-bottom: 8px;margin-right: 8px;"></a>
+<button class="floating-btn" id="open">Stay connected to the futur</button>
+
+<div class="news-container" id="news">
+	<div class="news-header">
+		<button class="close-btn" id="close">✕</button>
+		<h4 class = "bodynewsletter">Hey you !
+			Don't you want to follow our newsletter ?
+		</h4>
+	</div>
+	<div class="news-body">
+		<form>
+			<input type="text" placeholder="Your e-mail" />
+			<button class="submit-btn" type="submit" class = "bodynewsletter">Stay connected to the futur</button>
+		</form>
+	</div>
+</div>
+
+<script>
+  const openBtn = document.getElementById('open');
+  const closeBtn = document.getElementById('close');
+  const newsContainer = document.getElementById('news');
+
+  setTimeout(showPopup, 5000);
+
+  openBtn.addEventListener('click', () => {
+	  showPopup()
+  });
+
+  closeBtn.addEventListener('click', () => {
+	  hidePopup()
+  });
+
+  function showPopup() {
+	  newsContainer.classList.add('show');
+	  openBtn.classList.add('hidden');
+  }
+
+  function hidePopup() {
+  	newsContainer.classList.remove('show');
+	  openBtn.classList.remove('hidden');
+  }
+</script>
 
 <!--Laissez le en bas bande d'andouille-->
     <div class = "footer">

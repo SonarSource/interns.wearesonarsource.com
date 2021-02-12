@@ -13,11 +13,12 @@ h1.dessous
 }
 p.dessous
 {
-    font-size: 13.3px;
+    font-size: 20px;
 }
 .dessous
 {
     clear: both;
+
 }
 h1.dessous
 {
@@ -33,14 +34,10 @@ h2.dessous
 }
 .prenom
 {
-    font-size: medium;
+    font-size: 20px;
     color:rgb(203, 48, 50)
 }
-.love
-{
-    font-style: italic;
-    text-decoration: overline underline;
-}
+
 div.dessous .test
 {
     position: center;
@@ -87,11 +84,13 @@ min-height: 1700px;
 {
     position: absolute;
     top:30%;left:2%;
+    width: 800px;
 }
 .prespersA
 {
     position: absolute;
-    top:60%;left:5%;
+    top:60%;left:2%;
+    width: 900px;
 }
 .prespersE
 {
@@ -106,4 +105,7 @@ min-height: 1700px;
 .TITREPRES
 {
     text-align: center;
+}
+.paragraphe{
+    font-size: 20px;
 }

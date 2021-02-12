@@ -123,9 +123,9 @@ a.menu{
 .thibault{
     position: absolute;
     top: 15%;
-    right: 0%;
+    right: 6%;
     text-align: left;
-    color: #0f0096;
+    color: #210eca;
     font-family: cursive;
 }
 
@@ -149,10 +149,11 @@ a.menu{
 
 .adrien{
     position: absolute;
-    top: 70%;
+    top: 80%;
+    right: 28%;
     color: rgb(255, 251, 251);
     font-family: cursive;
-    right: 60px;
+    
 }
 
 .maelys{
@@ -229,14 +230,15 @@ a.menu{
 
 .slide {
     height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .slide2 {
-    background: no-repeat
-    
+    background-image: url('photo%20oli.png');
 }
 .slide1{
-    background: url("images/IMG_20210210_144745.jpg") left/60% no-repeat, url("images/jb.jpg") right/50% no-repeat
+    background: url("images/IMG_20210210_144745.jpg") left/50% no-repeat, url('photo%20JB.png') right/50% no-repeat
 }
 
 

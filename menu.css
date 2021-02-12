@@ -141,8 +141,9 @@ a.menu{
     top: 15%;
     right: 6%;
     text-align: left;
-    color: rgba(88, 44, 207, 0.952);
+    color:  rgba(38, 0, 255, 0.932);
     font-family: 'Inconsolata', monospace;
+    background: white
 }
 
 .morgane{
@@ -150,17 +151,21 @@ a.menu{
     top: 40%;
     left: 0;
     text-align: right;
-    color: rgba(255, 234, 42, 0.925);
+    color:  rgba(66, 224, 216, 0.932);
     font-family: 'Inconsolata', monospace;
+    background: white
+
 }
 
 .emma{
     position: absolute;
     top: 80%;
-    color:  rgba(224, 66, 119, 0.932);
+    color:  rgba(255, 0, 191, 0.932);
     font-family: 'Inconsolata', monospace;
     margin-left: 300px;
     left: 10px;
+    background: white
+
 }
 
 .adrien{
@@ -169,16 +174,20 @@ a.menu{
     right: 28%;
     color:  #62dd10f3;
     font-family: 'Inconsolata', monospace;
+    background: white
+
     
 }
 
 .maelys{
     position: absolute;
     top: 15%;
-    color:  rgba(61, 226, 231, 0.932);
+    color:  rgba(255, 0, 0, 0.932);
     font-family: 'Inconsolata', monospace;
     margin-left: 15%;
     left: 10%;
+    background: white
+
 }
 .maelys1 {
     position: absolute;
@@ -187,6 +196,8 @@ a.menu{
     font-family: 'Inconsolata', monospace;
     margin-left: 15%;
     left: 5%;
+    background: white
+
 
 }
 
@@ -195,20 +206,22 @@ a.menu{
     position: absolute;
     right: 10%;
     text-align: left;
-    font-family: 'Inconsolata', monospace;
-    color: rgba(255, 234, 42, 0.925);
-    font-size: 400%;
+    color: rgba(88, 44, 207, 0.952);
+    font-size: 250%;
     bottom: 10%;
+    background: white
+
 }
 
 .c2{
-    font-family: 'Inconsolata', monospace;
     position: absolute;
     top: 10%;
     text-align: right;
     color:  rgba(224, 66, 119, 0.932);
-    font-size: 400%;
+    font-size: 250%;
     right: 400px;
+    background: white
+
 }
 
 
@@ -216,28 +229,32 @@ a.menu{
     position: absolute;
     top: 70%;
     color:  #62dd10f3;
-    font-family: 'Inconsolata', monospace;
     margin-left: 50px;
-    font-size: 400%;
+    font-size: 250%;
     left: 0;
+    background: white
+
 }
 
 .c4{
     position: absolute;
     top: 50%;
-    color:  rgba(61, 226, 231, 0.932);
-    font-family: 'Inconsolata', monospace;
-    right: 100px;
-    font-size: 400%;
+    color: rgba(61, 226, 231, 0.932);
+    right: 300px;
+    font-size: 250%;
+    background: white;
+    max-width: 100px;
+
 }
 
 .c5{
     position: absolute;
     top: 20%;
     color: rgba(88, 44, 207, 0.952);
-    font-family: 'Inconsolata', monospace;
-    font-size: 300%;
+    font-size: 250%;
     left: 5%;
+    background: white
+
 }
 
 
@@ -479,4 +496,8 @@ input {
 .loupe{
     width: 30%;
     height: 70%;
+}
+.divoffices {
+    text-align: center;
+    font-size: 20px;
 }

@@ -87,7 +87,7 @@
   width: 100%;
   height: 100%;
   border-radius: 20px;
-  color: black;
+  color: rgb(27, 41, 56);
 }
 
 .flip-card:hover .flip-card-inner {
@@ -96,7 +96,8 @@
 
 .titre {
   text-align: center;
-  text-decoration: underline;
+  font-size: 300%;
+  color: rgb(27, 41, 56);
 }
 
 .page {

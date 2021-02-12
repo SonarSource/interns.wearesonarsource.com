@@ -239,10 +239,11 @@ a.menu{
 .c4{
     position: absolute;
     top: 50%;
-    color:  rgba(61, 226, 231, 0.932);
-    right: 100px;
+    color: rgba(61, 226, 231, 0.932);
+    right: 300px;
     font-size: 250%;
-    background: white
+    background: white;
+    max-width: 100px;
 
 }
 

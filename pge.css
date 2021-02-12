@@ -1,11 +1,7 @@
 h2.dessous,h1.dessous
 {
-    color: rgb(255, 255, 255);
+    color: black;
     font-size: 200%;
-}
-div.presbody
-{
-    background: url(OKKK.jpg) bottom left no-repeat , url(OKKKK.jpg) no-repeat bottom right, url(OKKKKK.jpg) no-repeat bottom , url(OKK.jpg) no-repeat center ;
 }
 p
 {
@@ -18,10 +14,6 @@ h1.dessous
 p.dessous
 {
     font-size: 13.3px;
-}
-.logoSonarSource
-{
-    float:left;
 }
 .dessous
 {
@@ -38,14 +30,6 @@ h2.dessous
 .paratexte
 {
     font-style: oblique;
-}
-div.dessous
-{
-    border: 2.5px rgb(203, 48, 50) double ;
-}
-.imagecentre
-{
-    float: right;
 }
 .prespers
 {
@@ -65,7 +49,25 @@ div.dessous .test
 {
     position: center;
 }
-
-img {
-    border-radius: 20px;
+.IMAGE1
+{
+    position: absolute;
+  top:50% ;left: 5%;
+}
+.parent
+{
+position: relative;
+}
+.IMAGE2
+{
+    position: absolute;
+  top:50% ;left: 60%;
+}.IMAGE3
+{
+    position: absolute;
+  top:100% ;left: 10%;
+}.IMAGE4
+{
+    position: absolute;
+  top:100% ;left: 70%;
 }

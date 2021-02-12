@@ -13,23 +13,26 @@ body{
     display: inline-block;
     font-family: 'Inconsolata', monospace;
     margin-left: 0;
-
+    font-weight: bolder;
 }
 .home_page{
     background-color: transparent;
     border: transparent;
     float:right ;
+    font-weight: bolder;
 }
 .b1 {
     border: transparent;
     background-color: transparent;
     font-family: 'Inconsolata', monospace;
+    font-weight: bolder;
 }
 .header {
     font-family: 'Inconsolata', monospace;
     position: fixed;
     margin-right: 10px;
     text-align: center;
+    font-weight: bolder;
     }
 
 .fade {
@@ -45,22 +48,24 @@ body{
     @keyframes fade {
     from {opacity: .4} 
     to {opacity: 1}
-  }
+    }
 
 header{
     background-repeat: no-repeat;
     background-size: cover;
     top: 20%;
-    padding-bottom: 200px;
+    padding-bottom: 460px;
     font-size: 200%;
     font-family: 'Inconsolata', monospace;
     color: rgb(27, 41, 56);
+    font-weight: bolder;
 }
 
 .titre12 {
     padding-top: 100px;
     text-align: center;
     text-decoration: none;
+    font-weight: bolder;
     font-weight: bolder;
     
 }
@@ -69,11 +74,13 @@ ul {
     list-style: none;
     padding: 0;
     text-align: center;
+    font-weight: bolder;
 
 }
 
 .visible {
     display: list-item;
+    font-weight: lighter;
 
 }
 
@@ -303,4 +310,130 @@ a.menu{
 }
 .lettre4{
     color: rgba(255, 234, 42, 0.925);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+:root {
+	--color-one: #8aeba1;
+	--color-two: #ebc3e2;
+}
+
+.bodynewsletter {
+	font-family: 'Poppins', sans-serif;
+}
+
+button, input {
+	font-family: inherit;
+	font-size: 0.65rem;
+}
+
+.floating-btn {
+	color: white;
+	background: linear-gradient(to right, var(--color-one), var(--color-two));
+	box-shadow: 2px 2px 4px var(--color-two-op);
+	border: none;
+	border-radius: 25px;
+	cursor: pointer;
+	font-weight: bold;
+	padding: 0.75rem 1.25rem;
+	position: fixed;
+    top: 0;
+	right: 0;
+    margin-top: 7px;
+    margin-right: 7px;
+	transition: opacity 0.3s ease-in;
+}
+
+.floating-btn.hidden {
+	opacity: 0;
+}
+
+.floating-btn:focus {
+	background: var(--color-two);
+	outline: none;
+}
+
+.floating-btn:hover {
+	background: var(--color-two);
+}
+
+.news-container {
+	border-radius: 10px;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	right: 0;
+    margin-top: 7px;
+    margin-right: 7px;
+	transition: transform 0.3s ease-in;
+	transform: translateX(120%);
+	width: 300px;
+}
+
+.news-container.show {
+	transform: translateX(0);
+}
+
+.news-header {
+	background: linear-gradient(to right, var(--color-one), var(--color-two));
+	color: white;
+	padding: 1.5rem 1rem 1rem;
+	position: relative;
+	text-align: center;
+}
+
+.news-header h4 {
+	margin: 0;
+}
+
+.news-body {
+	background-color: #fff;
+	padding: 1rem;
+}
+
+input {
+	display: block;
+	padding: 0.35rem;
+	border: 1px solid #bababa;
+	border-radius: 3px;
+	width: 100%;
+}
+
+.submit-btn {
+	color: white;
+	background: linear-gradient(to right, var(--color-one), var(--color-two));
+	border: none;
+	display: block;
+	padding: 0.35rem;
+	border: 1px solid #bababa;
+	border-radius: 3px;
+	margin-top: 0.5rem;
+	width: 100%;
+}
+
+.close-btn {
+	background-color: transparent;
+	border: none;
+	color: #bababa;
+	cursor: pointer;
+	font-size: 0.8rem;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+
+.close-btn:focus {
+	outline: none;
+}
+.mot{
+    font-size: 250%;
+    text-decoration: 5px #ff0707 wavy underline ;
+    color: white;
+    font-weight: 100;
 }

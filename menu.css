@@ -141,7 +141,7 @@ a.menu{
     top: 15%;
     right: 6%;
     text-align: left;
-    color:  rgba(224, 66, 119, 0.932);
+    color:  rgba(38, 0, 255, 0.932);
     font-family: 'Inconsolata', monospace;
     background: white
 }
@@ -151,7 +151,7 @@ a.menu{
     top: 40%;
     left: 0;
     text-align: right;
-    color:  rgba(224, 66, 119, 0.932);
+    color:  rgba(66, 224, 216, 0.932);
     font-family: 'Inconsolata', monospace;
     background: white
 
@@ -160,7 +160,7 @@ a.menu{
 .emma{
     position: absolute;
     top: 80%;
-    color:  rgba(224, 66, 119, 0.932);
+    color:  rgba(255, 0, 191, 0.932);
     font-family: 'Inconsolata', monospace;
     margin-left: 300px;
     left: 10px;
@@ -182,7 +182,7 @@ a.menu{
 .maelys{
     position: absolute;
     top: 15%;
-    color:  rgba(61, 226, 231, 0.932);
+    color:  rgba(255, 0, 0, 0.932);
     font-family: 'Inconsolata', monospace;
     margin-left: 15%;
     left: 10%;

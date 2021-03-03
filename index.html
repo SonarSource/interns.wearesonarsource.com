@@ -40,13 +40,30 @@ img {
       text-decoration: underline;
       margin-bottom: 1cm;
     }
+
     .réponses {
       margin-left: 3cm;
       margin-bottom: 1.5cm;
     }
 
+    .prénom {
+      color: rgb(115, 255, 0);
+      margin-left: 2cm;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+
     a {
       color: chartreuse;
+    }
+
+    .team {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .team div {
+      margin-left: 2em;
     }
 
     </style>
@@ -85,12 +102,35 @@ img {
     <p class="réponses">
     In this Intership i loved the atmosphere but 
     I especially loved what I did because I love everything about computers.
-    This internship allowed me to validate my choice of profession for later on.
+    This internship allowed me to <br/>validate my choice of profession for later on.
     </p>
 
-    <h2>The link :</h2>
-    <p>
-        <a href="https://www.sonarsource.com/">SonarSource</a>
-    </p>
+    <h2>Some photo of us :</h2>
+    <section class="team">
+      <div>
+        <img src="IMG_20210303_145511.jpg" height="300" width="auto" alt="Photo d'Evan">
+        <p class="prénom">
+          Evan
+        </p>
+      </div>
+      <div>
+        <img src="20210303_114028.jpg" height="300" width="auto" alt="Photo de Mathis">
+        <p class="prénom">
+          Mathis
+        </p>
+      </div>
+      <div>
+        <img src="Capture.PNG" height="300" width="auto" alt="Photo de Nathan">
+        <p class="prénom">
+          Nathan
+        </p>
+      </div>
+    </section>
+    
+    
+    
+    
+    
+
   </body>
 </html>

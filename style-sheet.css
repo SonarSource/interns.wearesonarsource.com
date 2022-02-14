@@ -13,9 +13,10 @@ em {
 header {
     position: absolute;
     top: 0px;
-    text-decoration: line-through;
+    border: 1cm;
 }
 footer {
     position: relative;
     bottom: 0px;
+    border: 1cm;
 }

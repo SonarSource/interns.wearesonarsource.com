@@ -10,3 +10,12 @@ em {
     font-weight: 800;
     text-decoration: none;
 }
+header {
+    position: absolute;
+    top: 0px;
+    text-decoration: line-through;
+}
+footer {
+    position: relative;
+    bottom: 0px;
+}

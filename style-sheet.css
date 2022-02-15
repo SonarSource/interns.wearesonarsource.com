@@ -24,7 +24,12 @@ footer {
     border: 1cm;
 }
 footer, header {
-    display: flex;
+    display: inline-flex;
+
+}
+footer p {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
 }
 .un {
     margin: 0px;

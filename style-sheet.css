@@ -38,12 +38,12 @@ footer p {
 ul {
     margin-right: 80%;
 }
-.barre {
+#barre {
     position: absolute;
     bottom: 5%;
     width: 100%;
 }
-.mail {
+#mail {
     
     height: 40px;
     width: 40px;
@@ -56,6 +56,6 @@ ul {
     margin-right: 10px;
     margin-left: 6px;
 }
-.credits {
+#credits {
     margin-left: 5px;
 }

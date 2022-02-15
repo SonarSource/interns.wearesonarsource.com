@@ -23,7 +23,9 @@ footer {
     position: absolute;
     bottom: 0px;
     border: 1cm;
-    position: center;
+    width: 100%;
+    justify-content: center;
+    height: 25px;
 }
 footer, header {
     display: flex;
@@ -46,7 +48,7 @@ ul {
 #mail {
     
     height: 40px;
-    width: 40px;
+    width: 45px;
     margin-right: 10px;
 
 }
@@ -62,7 +64,7 @@ ul {
 #Cagnotte {
     margin-right: 5px;
     margin-left: 5px;
-    width: 137px;
+    width: 105px;
     height: 40px;
 }
 .posisioned {
@@ -85,5 +87,5 @@ body {
     font-size: 1cm;
 }
 html {
-    background-color: gr;
+    background-color: #D8D9D9;
 }

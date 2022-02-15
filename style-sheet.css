@@ -93,15 +93,11 @@ html {
     background-color: #D8D9D9;
 }
 
-#amerique {
-    text-align: left;
-}
-
-#europe {
-    text-align: right;
-}
-
 #ville {
     text-align: center;
     font-size: 7mm;
+}
+
+#map {
+    text-align: center;
 }

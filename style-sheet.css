@@ -104,8 +104,13 @@ html {
 }
 
 .premier {
-    border-bottom-left-radius: black;
-    font-size: large;
+    border: black solid 2.25px;
+    border-radius: 3px;
+    display: inline-block;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-top: 2%;
+    font-size: 40px;
 }
 .Question {
     margin-left:70%;

@@ -40,6 +40,22 @@ ul {
 }
 .barre {
     position: absolute;
-    bottom: 10%;
-    margin-right: 100%;
+    bottom: 5%;
+    width: 100%;
+}
+.mail {
+    
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+
+}
+.argent {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    margin-left: 6px;
+}
+.credits {
+    margin-left: 5px;
 }

@@ -1,6 +1,7 @@
 a{
     color: black;
     text-decoration: none;
+    margin-right: 10%;
 }
 a:hover {
     color: blue;

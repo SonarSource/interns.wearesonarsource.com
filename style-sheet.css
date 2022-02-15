@@ -31,10 +31,14 @@ footer, header {
 footer p {
     margin-block-start: 0px;
     margin-block-end: 0px;
+    text-align: center;
 }
 .un {
     margin: 0px;
 }
 ul {
     margin-right: 80%;
+}
+.barre {
+    position: absolute;
 }

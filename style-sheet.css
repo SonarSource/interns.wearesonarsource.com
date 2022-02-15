@@ -23,7 +23,7 @@ footer {
     position: absolute;
     bottom: 0px;
     border: 1cm;
-    text-align: center;
+    position: center;
 }
 footer, header {
     display: flex;
@@ -50,7 +50,7 @@ ul {
     margin-right: 10px;
 
 }
-.argent {
+#argent {
     height: 40px;
     width: 40px;
     margin-right: 10px;
@@ -58,4 +58,9 @@ ul {
 }
 #credits {
     margin-left: 5px;
+}
+#Cagnotte {
+    margin-right: 5px;
+    width: 190px;
+    height: 40px;
 }

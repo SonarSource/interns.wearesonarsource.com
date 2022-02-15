@@ -65,3 +65,22 @@ ul {
     width: 137px;
     height: 40px;
 }
+.posisioned {
+    position:static;
+    margin:8px;
+    
+}
+body {
+    margin: 0%;
+}
+
+.nav-principal {
+    font-size: 2cm;
+    background-color: black;
+    color:black;
+    margin: 0%;
+}
+.nav-principal a {
+    color:aliceblue;
+    font-size: 1cm;
+}

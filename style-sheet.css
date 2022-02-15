@@ -104,6 +104,6 @@ html {
 }
 
 .premier {
-    border: black;
+    border-bottom-left-radius: black;
     font-size: large;
 }

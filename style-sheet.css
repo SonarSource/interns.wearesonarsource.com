@@ -38,7 +38,7 @@ footer p {
 ul {
     margin-right: 80%;
 }
-#barre {
+.barre {
     position: absolute;
     bottom: 5%;
     width: 100%;

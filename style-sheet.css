@@ -89,6 +89,7 @@ body {
     color:aliceblue;
     font-size: 1cm;
 }
+
 html {
     background-color: #D8D9D9;
 }
@@ -100,4 +101,8 @@ html {
 
 #map {
     text-align: center;
+}
+
+#premier {
+    border: black;
 }

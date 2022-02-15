@@ -15,12 +15,12 @@ em {
     text-decoration: none;
 }
 header {
-    position: absolute;
+    position: relative;
     top: 0px;
     border: 1cm;
 }
 footer {
-    position: relative;
+    position: absolute;
     bottom: 0px;
     border: 1cm;
 }

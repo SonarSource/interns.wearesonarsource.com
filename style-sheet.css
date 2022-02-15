@@ -8,7 +8,7 @@ a:hover {
     text-decoration: underline;
 }
 a:visited {
-    color: red;
+    color: darkmagenta;
 }
 em {
     font-weight: 800;
@@ -83,4 +83,7 @@ body {
 .nav-principal a {
     color:aliceblue;
     font-size: 1cm;
+}
+html {
+    background-color: gr;
 }

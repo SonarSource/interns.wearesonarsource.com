@@ -23,15 +23,14 @@ footer {
     position: absolute;
     bottom: 0px;
     border: 1cm;
+    text-align: center;
 }
 footer, header {
     display: flex;
-
 }
 footer p {
     margin-block-start: 0px;
     margin-block-end: 0px;
-    text-align: center;
 }
 .un {
     margin: 0px;
@@ -41,4 +40,6 @@ ul {
 }
 .barre {
     position: absolute;
+    bottom: 10%;
+    margin-right: 100%;
 }

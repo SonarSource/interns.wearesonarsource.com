@@ -6,6 +6,9 @@ a:hover {
     color: blue;
     text-decoration: underline;
 }
+a:visited {
+    color: red;
+}
 em {
     font-weight: 800;
     text-decoration: none;
@@ -19,4 +22,11 @@ footer {
     position: relative;
     bottom: 0px;
     border: 1cm;
+}
+footer, header {
+    display: flex;
+}
+.credits {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
 }

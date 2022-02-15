@@ -107,3 +107,16 @@ html {
     border-bottom-left-radius: black;
     font-size: large;
 }
+.Question {
+    margin-left:70%;
+}
+
+.welcome {
+    text-align: center;
+    font-size: 2cm;
+    background: rgb(2,0,36);
+    background: linear-gradient(163deg, rgba(2,0,36,1) 0%, rgba(213,23,120,1) 0%, rgba(250,255,0,1) 100%);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+}

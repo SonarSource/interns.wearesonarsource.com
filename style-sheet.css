@@ -70,8 +70,11 @@ ul {
 .posisioned {
     position:static;
     margin:8px;
-    
+    font-size: 15mm;
+    text-align: center;
+    text-decoration:underline;
 }
+
 body {
     margin: 0%;
 }
@@ -88,4 +91,17 @@ body {
 }
 html {
     background-color: #D8D9D9;
+}
+
+#amerique {
+    text-align: left;
+}
+
+#europe {
+    text-align: right;
+}
+
+#ville {
+    text-align: center;
+    font-size: 7mm;
 }

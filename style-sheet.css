@@ -24,7 +24,7 @@ footer a {
 }
 footer {
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
     border: 1cm;
     width: 100%;
     justify-content: center;

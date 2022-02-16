@@ -8,7 +8,7 @@ a:hover {
     text-decoration: underline;
 }
 a:visited {
-    color: #64F3AA;
+    color: #9629EE;
 }
 em {
     font-weight: 800;
@@ -241,4 +241,7 @@ html {
 
 html, body {
     min-height: 100vh;
+}
+.part h1{
+    margin-bottom: 1px;
 }

@@ -30,7 +30,6 @@ footer {
     background-color: black;
     height: 6.5%;
     color: white;
-    bottom: 0%;
 }
 footer, header {
     display: flex;

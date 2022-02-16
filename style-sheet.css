@@ -222,7 +222,7 @@ html {
 }
 
 .element {
-    color: rgb(102, 217, 255);
+    color: rgb(103, 195, 226);
 }
 
 .content {
@@ -244,4 +244,35 @@ html, body {
 }
 .part h1{
     margin-bottom: 1px;
+}
+
+.descW {
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    border: transparent solid 2.5px;
+    border-radius: 30px;
+    padding: 10px 30px;
+    background-color: rgb(172,172,172);
+    margin:4%;
+    font-size: 0.5cm;
+    margin-right: 0;
+}
+
+.JB{
+    display: flex;
+    flex-direction: column;
+    font-size: 1cm;
+    margin: 5%;
+    text-align: center;
+}
+
+.descW a {
+    display: contents;
+}
+
+.Raison {
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
 }

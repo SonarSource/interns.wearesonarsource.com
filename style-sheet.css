@@ -92,7 +92,7 @@ body {
     margin: 0%;
 }
 .nav-principal a {
-    color:aliceblue;
+    color:rgb(255, 255, 255);
     font-size: 1cm;
 }
 
@@ -192,9 +192,9 @@ html {
     margin-right: 10%;
     width: 46%;
     border: transparent solid 2.5px;
-    border-radius: 40px;
+    border-radius: 30px;
     background-color: rgb(172,172,172);
-    margin:5%;
+    margin:4%;
     
 }
 #haut {
@@ -226,4 +226,14 @@ html {
 
 .content {
     color: white;
+}
+
+.fleur {
+    color: black;
+}
+
+.titreflower {
+    text-align: center;
+    font-size: 2cm;
+    margin: 2cm;
 }

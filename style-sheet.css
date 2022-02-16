@@ -24,11 +24,9 @@ footer a {
 }
 footer {
     position: absolute;
-    bottom: 0px;
     border: 1cm;
     width: 100%;
     justify-content: center;
-    height: 25px;
     background-color: black;
     height: 6.5%;
     color: white;
@@ -83,6 +81,7 @@ ul {
 
 body {
     margin: 0%;
+    padding-bottom: 5.5%;
 }
 
 .nav-principal {

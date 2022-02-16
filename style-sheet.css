@@ -140,8 +140,6 @@ html {
     margin-left: 0%;
     font-size: x-large;
     text-align: center;
-    padding: 10px;
-    padding-right: 5px;
     display: flex;
     flex-direction: column;
 }
@@ -275,4 +273,10 @@ html, body {
     display: flex;
     flex-direction: row;
     margin: 0%;
+}
+#reste {
+    margin-left: 10px;
+}
+#reste h1{
+    font-size: 40px;
 }

@@ -183,6 +183,7 @@ html {
     border-radius: 30px;
     background-color: rgb(172, 172, 172);
     margin:4%;
+    padding:0.5cm;
 }
 
 .blocM {
@@ -194,8 +195,9 @@ html {
     border-radius: 30px;
     background-color: rgb(172,172,172);
     margin:4%;
-    
+    padding:0.5cm;    
 }
+
 #haut {
     display: flex;
     flex-direction: line;

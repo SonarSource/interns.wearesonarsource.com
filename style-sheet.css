@@ -181,7 +181,7 @@ html {
     width: 46%;
     border: transparent solid 2.5px;
     border-radius: 30px;
-    background-color: rgb(172, 172, 172);
+    background-color: #bebebe;
     margin:4%;
     padding:0.5cm;
 }
@@ -193,7 +193,7 @@ html {
     width: 46%;
     border: transparent solid 2.5px;
     border-radius: 30px;
-    background-color: rgb(172,172,172);
+    background-color: #bebebe;
     margin:4%;
     padding:0.5cm;    
 }
@@ -222,7 +222,7 @@ html {
 }
 
 .element {
-    color: rgb(103, 195, 226);
+    color: #0968b9;
 }
 
 .content {
@@ -253,7 +253,7 @@ html, body {
     border: transparent solid 2.5px;
     border-radius: 30px;
     padding: 10px 30px;
-    background-color: rgb(172,172,172);
+    background-color: #bebebe;
     margin:4%;
     font-size: 0.5cm;
     margin-right: 0;

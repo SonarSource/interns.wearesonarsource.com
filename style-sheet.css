@@ -82,6 +82,7 @@ ul {
 body {
     margin: 0%;
     padding-bottom: 0%;
+    border: 0%;
 }
 
 .nav-principal {
@@ -144,4 +145,51 @@ html {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.us {
+    font-size: 15mm;
+    text-align: center;
+    text-decoration: dashed;
+}
+
+.axel {
+    margin:0;
+    font-size: 2cm;
+    text-align: center;
+}
+
+.maxence {
+    margin:0;
+    font-size: 2cm;
+    text-align: center;
+}
+
+.AetM {
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+}
+
+.blocA {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    width: 45%;
+    border: transparent solid 2.5px;
+    border-radius: 30px;
+    background-color: rgb(172, 172, 172);
+    margin:5%;
+}
+
+.blocM {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+    width: 45%;
+    border: transparent solid 2.5px;
+    border-radius: 40px;
+    background-color: rgb(172,172,172);
+    margin:5%;
+    
 }

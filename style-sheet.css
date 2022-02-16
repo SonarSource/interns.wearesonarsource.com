@@ -24,11 +24,12 @@ footer a {
 }
 footer {
     position: absolute;
+    bottom: 0;
     border: 1cm;
     width: 100%;
     justify-content: center;
     background-color: black;
-    height: 6.5%;
+    height: 5vh;
     color: white;
 }
 footer, header {
@@ -80,9 +81,9 @@ ul {
 }
 
 body {
+    position: relative;
+    padding-bottom: 5%;
     margin: 0%;
-    padding-bottom: 0%;
-    border: 0%;
 }
 
 .nav-principal {
@@ -117,9 +118,9 @@ html {
     margin-top: 2%; 
     font-size: 40px;
 }
-/*.Question {
-    margin-left:70%;
-}*/
+.Question {
+    margin-right:10px;
+}
 
 .welcome {
     text-align: center;
@@ -236,4 +237,8 @@ html {
     text-align: center;
     font-size: 2cm;
     margin: 2cm;
+}
+}
+html, body {
+    min-height: 100vh;
 }

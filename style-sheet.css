@@ -8,7 +8,7 @@ a:hover {
     text-decoration: underline;
 }
 a:visited {
-    color: darkmagenta;
+    color: #64F3AA;
 }
 em {
     font-weight: 800;
@@ -19,6 +19,9 @@ header {
     top: 0px;
     border: 1cm;
 }
+footer a {
+    color: white;
+}
 footer {
     position: absolute;
     bottom: 0px;
@@ -26,6 +29,9 @@ footer {
     width: 100%;
     justify-content: center;
     height: 25px;
+    background-color: black;
+    height: 6.5%;
+    color: white;
 }
 footer, header {
     display: flex;

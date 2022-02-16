@@ -179,18 +179,18 @@ html {
     display: flex;
     flex-direction: column;
     margin-left: 10%;
-    width: 45%;
+    width: 46%;
     border: transparent solid 2.5px;
     border-radius: 30px;
     background-color: rgb(172, 172, 172);
-    margin:5%;
+    margin:4%;
 }
 
 .blocM {
     display: flex;
     flex-direction: column;
     margin-right: 10%;
-    width: 45%;
+    width: 46%;
     border: transparent solid 2.5px;
     border-radius: 40px;
     background-color: rgb(172,172,172);
@@ -203,4 +203,27 @@ html {
 } 
 .lien {
     margin-left: 23.863px;
+    margin:4%;
+}
+
+.descA {
+    font-size: 1cm;
+    margin: 0;
+}
+
+.descM {
+    font-size: 1cm;
+    margin: 0;
+}
+
+.bracket {
+    color: rgb(112, 112, 112);
+}
+
+.element {
+    color: rgb(102, 217, 255);
+}
+
+.content {
+    color: white;
 }

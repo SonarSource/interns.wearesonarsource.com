@@ -282,3 +282,27 @@ html, body {
 #reste h1{
     font-size: 40px;
 }
+#content{ 
+    display: flex;
+}
+#liste1 ul{
+    width: 270px;
+}
+#liste2 ul{
+    width: 180px;
+}
+#liste3 ul{
+    width: 150px;   
+}
+#liste1, #liste2, #liste3 {
+    padding-right: 50px;
+}
+#liste2 h3, #liste3 h3{
+    text-align: center;
+}
+#liste1 h3{
+    padding-left: 35px;
+}
+#liste3 h3{
+    padding-left: 25px;
+}

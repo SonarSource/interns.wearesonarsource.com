@@ -225,9 +225,9 @@ html {
     color: #0968b9;
 }
 
-.content {
+/*.content {
     color: white;
-}
+}*/
 
 .fleur {
     color: black;
@@ -305,7 +305,4 @@ html, body {
 }
 .liste3 h3{
     padding-left: 25px;
-}
-ul, h1{
-    color: black;
 }

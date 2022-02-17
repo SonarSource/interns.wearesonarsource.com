@@ -398,3 +398,9 @@ article{
     text-decoration: none;
     text-emphasis-style: italic;
 }
+.blanc{
+    background-color: whitesmoke;
+}
+hr{
+    margin: 0;
+}

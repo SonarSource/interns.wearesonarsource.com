@@ -253,8 +253,28 @@ html, body {
     display: flex;
     flex-direction: column;
     font-size: 1cm;
-    margin: 5%;
     text-align: center;
+}
+
+.imgJB {
+    margin: 0 auto;
+    margin-top: 1cm;
+    padding: 0.5cm;
+    background-color: #bebebe;
+    border: transparent solid 2.5px;
+    border-radius: 30px;
+}
+
+.descW {
+    display: flex;
+    flex-direction: row;
+    border: transparent solid 2.5px;
+    border-radius: 30px;
+    padding: 10px 30px;
+    background-color: #bebebe;
+    margin:4%;
+    font-size: 0.5cm;
+    margin-right: 0;
 }
 
 .descW a {
@@ -263,9 +283,23 @@ html, body {
 
 .Raison {
     display: flex;
+    flex-direction: column;
+    margin: 0%;
+    width: 50%;
+}
+
+.Raison2 {
+    display: flex;
     flex-direction: row;
     margin: 0%;
+    width: 50%;
 }
+
+.RaisonJB {
+    display: flex;
+    flex-direction: row;
+}
+
 #reste h1{
     font-size: 40px;
 }

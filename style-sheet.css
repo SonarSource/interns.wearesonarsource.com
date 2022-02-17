@@ -283,7 +283,7 @@ html, body {
     padding: 10px 30px;
     background-color: #bebebe;
     margin:4%;
-    font-size: 0.5cm;
+    font-size: 0.8cm;
     margin-right: 0;
 }
 
@@ -344,8 +344,9 @@ article{
     background-color: #bebebe;
     border: transparent solid 2.5px;
     border-radius: 30px;
-    padding: 10px 30px;
+    padding: 30px;
     font-size: 0.5cm;
+    margin: 0 auto;
 }
 
 .AllAppli {
@@ -355,14 +356,8 @@ article{
 }
 
 .AppliUse {
-    display: flex;
     flex-direction: column;
-    border: transparent solid 2.5px;
-    border-radius: 30px;
-    background-color: #bebebe;
     margin:4%;
-    padding:0.5cm;
-    height: 2cm;
 }
 
 .googleC {

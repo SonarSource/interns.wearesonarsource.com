@@ -230,9 +230,9 @@ html {
     color: #0968b9;
 }
 
-/*.content {
-    color: white;
-}*/
+.content {
+    display: flex;
+}
 
 .fleur {
     color: black;

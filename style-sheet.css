@@ -248,19 +248,6 @@ html, body {
     margin-bottom: 1px;
 }
 
-.descW {
-    display: flex;
-    flex-direction: column;
-    width: 46%;
-    border: transparent solid 2.5px;
-    border-radius: 30px;
-    padding: 10px 30px;
-    background-color: #bebebe;
-    margin:4%;
-    font-size: 0.5cm;
-    margin-right: 0;
-}
-
 .JB{
     display: flex;
     flex-direction: column;
@@ -308,4 +295,59 @@ html, body {
 }*/
 article{
     margin-left: 10px;
+}
+
+.appli{
+    background-color: #bebebe;
+    border: transparent solid 2.5px;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 0.5cm;
+}
+
+.AllAppli {
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+}
+
+.AppliUse {
+    display: flex;
+    flex-direction: column;
+    border: transparent solid 2.5px;
+    border-radius: 30px;
+    background-color: #bebebe;
+    margin:4%;
+    padding:0.5cm;
+    height: 2cm;
+}
+
+.googleC {
+    display: flex;
+    flex-direction: column;
+    border: transparent solid 2.5px;
+    border-radius: 30px;
+    background-color: #bebebe;
+    margin:4%;
+    padding:0.5cm;
+}
+
+.vscC {
+    display: flex;
+    flex-direction: column;
+    border: transparent solid 2.5px;
+    border-radius: 30px;
+    background-color: #bebebe;
+    margin:4%;
+    padding:0.5cm;
+}
+
+.gitC {
+        display: flex;
+        flex-direction: column;
+        border: transparent solid 2.5px;
+        border-radius: 30px;
+        background-color: #bebebe;
+        margin:4%;
+        padding:0.5cm;
 }

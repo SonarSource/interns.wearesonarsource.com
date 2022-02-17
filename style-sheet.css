@@ -116,7 +116,7 @@ html {
     display: inline-block;
     text-align: center;
     margin-top: 2%; 
-    font-size: 40px;
+    font-size: 80px;
 }
 .Question {
     margin-right:10px;
@@ -136,7 +136,7 @@ html {
 }
 
 .part {
-    width: 300px;
+    width: auto;
     margin-left: 0%;
     font-size: x-large;
     text-align: center;
@@ -200,11 +200,13 @@ html {
 
 #haut {
     display: flex;
-    flex-direction: line;
-} 
+    flex-direction: row;
+    margin: 25vh auto 25vh auto;
+    width: 100%;
+}
 .lien {
-    margin-left: 23.863px;
-    margin:4%;
+    margin: 0 auto;
+    width: 50%;
 }
 
 .descA {
@@ -276,9 +278,6 @@ html, body {
     flex-direction: row;
     margin: 0%;
 }
-#reste {
-    margin-left: 10px;
-}
 #reste h1{
     font-size: 40px;
 }
@@ -296,8 +295,9 @@ html, body {
 }
 .liste1, .liste2, .liste3 {
     padding-right: 50px;
+    width: 100vw;
 }
-.liste2 h3, .liste3 h3{
+/*.liste2 h3, .liste3 h3{
     text-align: center;
 }
 .liste1 h3{
@@ -305,4 +305,7 @@ html, body {
 }
 .liste3 h3{
     padding-left: 25px;
+}*/
+article{
+    margin-left: 10px;
 }

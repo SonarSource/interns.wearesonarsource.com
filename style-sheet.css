@@ -84,6 +84,7 @@ body {
     position: relative;
     padding-bottom: 5%;
     margin: 0%;
+    scroll-behavior: smooth;
 }
 
 .nav-principal {

@@ -185,6 +185,7 @@ html {
     background-color: #bebebe;
     margin:4%;
     padding:0.5cm;
+    font-size: 1cm;
 }
 
 .blocM {
@@ -196,7 +197,8 @@ html {
     border-radius: 30px;
     background-color: #bebebe;
     margin:4%;
-    padding:0.5cm;    
+    padding:0.5cm;
+    font-size: 1cm;
 }
 
 #haut {
@@ -265,6 +267,14 @@ html, body {
     border-radius: 30px;
 }
 
+.imgAxel {
+    margin: 1cm;
+}
+
+.imgMaxence {
+    margin: 1cm;
+}
+
 .descW {
     display: flex;
     flex-direction: row;
@@ -303,9 +313,7 @@ html, body {
 #reste h1{
     font-size: 40px;
 }
-.content{ 
-    display: flex;
-}
+
 .liste1 ul{
     width: 270px;
 }

@@ -400,8 +400,9 @@ hr{
   margin-right: auto;
 }
 .red{
-    background: red;
+    background: rgb(158, 158, 158);
     padding-bottom: 25px;
+    text-decoration: underline;
 }
 .red h1{
     margin-bottom: 0px;

@@ -421,7 +421,7 @@ hr{
 #top{
     position: fixed;
     width: 25px;
-    height: 40px;
+    height: 7vh;
     bottom: 25px;
     right: 50px;
 }

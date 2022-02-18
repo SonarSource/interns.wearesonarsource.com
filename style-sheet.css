@@ -398,9 +398,18 @@ article{
 hr{
     margin: 0;
 }
-
 .diagrame {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+.red{
+    background: red;
+    padding-bottom: 25px;
+}
+.red h1{
+    margin-bottom: 0px;
+}
+#logo{
+    width: 10%;
 }

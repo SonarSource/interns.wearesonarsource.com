@@ -207,6 +207,10 @@ html {
     margin: 25vh auto 25vh auto;
     width: 100%;
 }
+nav a:hover{
+    color: white;
+}
+
 .lien {
     margin: 0 auto;
     width: 50%;

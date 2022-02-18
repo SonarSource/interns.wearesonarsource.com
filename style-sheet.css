@@ -424,3 +424,10 @@ hr{
 #top img{
     width: 40px;
 }
+#aupif a:visited {
+    text-decoration: none;
+    color: black;
+}
+#aupif, a:hover{
+    color: black;
+}

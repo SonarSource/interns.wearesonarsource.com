@@ -398,3 +398,9 @@ article{
 hr{
     margin: 0;
 }
+
+.diagrame {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

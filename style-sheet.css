@@ -389,7 +389,7 @@ article{
     text-emphasis-style: italic;
 }
 .blanc{
-    background-color: whitesmoke;
+    background-color: #f5f5f5;
 }
 hr{
     margin: 0;
@@ -400,7 +400,7 @@ hr{
   margin-right: auto;
 }
 .red{
-    background: rgb(158, 158, 158);
+    background: #e03734;
     padding-bottom: 25px;
     text-decoration: underline;
 }

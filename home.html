@@ -1,65 +1,62 @@
-body {
-    background-color: #F7E5E6;
-    font-family: "Roboto", sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    text-align: center;
-    padding: 20px 0;
-  }
-  
-  h1 {
-    font-size: 35px;
-    color: #2C3E50;
-    margin: 0;
-    font-family: "Arial", sans-serif;
-  }
-  
-  nav {
-    display: flex;
-    justify-content: center;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: #2C3E50;
-    padding: 10px 20px;
-    margin: 0 10px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-    font-family: "Arial", sans-serif;
-  }
-  
-  nav a:hover {
-    background-color: #E74C3C;
-    color: white;
-  }
-  
-  #gros-bouton-rouge {
-    background-color: #E74C3C;
-    color: white;
-    padding: 20px 40px;
-    font-size: 20px;
-    cursor: pointer;
-    border: none;
-    border-radius: 10px;
-    display: block;
-    margin: 50px auto;
-    transition: background-color 0.3s;
-    font-family: "Roboto", sans-serif;
-  }
-  
-  #gros-bouton-rouge:hover {
-    background-color: #C0392B;
-  }
-   .emoji {
-        font-size: 2em;
-        cursor: pointer;
-        margin: 10px;
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Notre Site</title>
+  <link rel="stylesheet" href="home.css">
+</head>
+<body>
+  <header>
+    <h1>Sonar's Internship WebSite</h1>
+    <nav>
+      <a href="WE.html">Team</a>
+      <a href="index.html">Sonar</a>
+      <a href="#">Home</a>
+    </nav>
+  </header>
+
+  <section>
+    <button id="gros-bouton-rouge">☠ D⚠ NOT CLICK ⚠N THIS BIG RED  ☠ BUTT⚠N</button>
+  </section>
+
+  <section>
+    <h2>Évaluez notre service :</h2>
+    <div>
+      <span class="emoji" onclick="selectEmoji('😊')">😊</span>
+      <span class="emoji" onclick="selectEmoji('😐')">😐</span>
+      <span class="emoji" onclick="selectEmoji('😞')">😞</span>
+    </div>
+    <input type="hidden" id="satisfaction" name="satisfaction" value="">
+    <button onclick="submitForm()">Envoyer</button>
+  </section>
+
+  <script>
+    var bouton = document.getElementById("gros-bouton-rouge");
+    bouton.addEventListener("click", function() {
+      alert("Sorry to tell you that you have absolutely zero survival skills! Why did you even touch it?");
+    });
+
+    let selectedEmoji = null;
+
+    function selectEmoji(emoji) {
+      if (selectedEmoji) {
+        selectedEmoji.classList.remove('selected');
       }
-      .selected {
-        background-color: lightblue;
+      selectedEmoji = document.querySelector(`.emoji:contains('${emoji}')`);
+      selectedEmoji.classList.add('selected');
+      document.getElementById('satisfaction').value = emoji;
+    }
+
+    function submitForm() {
+      const satisfaction = document.getElementById('satisfaction').value;
+      if (!satisfaction) {
+        alert('Veuillez sélectionner un des emojis.');
+        return;
       }
-  
+      i
+      alert('Merci pour votre évaluation !');
+      
+    }
+  </script>
+</body>
+</html>

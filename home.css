@@ -1,0 +1,50 @@
+body {
+    background-color: #BAFAF6;
+    font-family: Arial, sans-serif;
+    cursor:progress !important;
+    /*:hover { cursor: none !important; } */
+    
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 35px;
+    color: #444;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+  
+  
+  }
+  
+  #gros-bouton-rouge {
+    background-color: red;
+    color: white;
+    padding: 20px 40px;
+    font-size: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    margin: 50px auto;
+    div {
+      cursor:progress;}
+  }
+  
+  #gros-bouton-rouge:hover {
+    background-color: blue;
+  }
+  

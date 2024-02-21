@@ -1,50 +1,65 @@
 body {
-    background-color: #BAFAF6;
-    font-family: Arial, sans-serif;
-    cursor:progress !important;
-    /*:hover { cursor: none !important; } */
-    
+    background-color: #F7E5E6;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
   }
   
   header {
     text-align: center;
+    padding: 20px 0;
   }
   
   h1 {
     font-size: 35px;
-    color: #444;
+    color: #2C3E50;
+    margin: 0;
+    font-family: "Arial", sans-serif;
   }
   
-  nav ul {
-    list-style-type: none;
-    padding: 0;
+  nav {
+    display: flex;
+    justify-content: center;
   }
   
-  nav ul li {
-    display: inline;
-    margin-right: 20px;
+  nav a {
+    text-decoration: none;
+    color: #2C3E50;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-family: "Arial", sans-serif;
   }
   
-  nav ul li a {
-  
-  
+  nav a:hover {
+    background-color: #E74C3C;
+    color: white;
   }
   
   #gros-bouton-rouge {
-    background-color: red;
+    background-color: #E74C3C;
     color: white;
     padding: 20px 40px;
-    font-size: 30px;
+    font-size: 20px;
     cursor: pointer;
     border: none;
     border-radius: 10px;
     display: block;
     margin: 50px auto;
-    div {
-      cursor:progress;}
+    transition: background-color 0.3s;
+    font-family: "Roboto", sans-serif;
   }
   
   #gros-bouton-rouge:hover {
-    background-color: blue;
+    background-color: #C0392B;
   }
+   .emoji {
+        font-size: 2em;
+        cursor: pointer;
+        margin: 10px;
+      }
+      .selected {
+        background-color: lightblue;
+      }
   

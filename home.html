@@ -9,17 +9,54 @@
   <header>
     <h1>Sonar's Internship WebSite</h1>
     <nav>
-      <ul>
-        <li><a href="#">Accueil</a></li>
-        <li><a href="#">Sonar</a></li>
-        <li><a href="#">Team</a></li>
-        <li><a href="#">Interview</a></li>
-      </ul>
+      <a href="WE.html">Team</a>
+      <a href="index.html">Sonar</a>
+      <a href="#">Home</a>
     </nav>
   </header>
 
   <section>
-    <button id="gros-bouton-rouge">   ☠ D⚠︎ NOT CLICK ⚠︎N THIS BIG RED  ☠ BUTT⚠︎N  </button>
+    <button id="gros-bouton-rouge">☠ D⚠ NOT CLICK ⚠N THIS BIG RED  ☠ BUTT⚠N</button>
   </section>
+
+  <section>
+    <h2>Évaluez notre service :</h2>
+    <div>
+      <span class="emoji" onclick="selectEmoji('😊')">😊</span>
+      <span class="emoji" onclick="selectEmoji('😐')">😐</span>
+      <span class="emoji" onclick="selectEmoji('😞')">😞</span>
+    </div>
+    <input type="hidden" id="satisfaction" name="satisfaction" value="">
+    <button onclick="submitForm()">Envoyer</button>
+  </section>
+
+  <script>
+    var bouton = document.getElementById("gros-bouton-rouge");
+    bouton.addEventListener("click", function() {
+      alert("Sorry to tell you that you have absolutely zero survival skills! Why did you even touch it?");
+    });
+
+    let selectedEmoji = null;
+
+    function selectEmoji(emoji) {
+      if (selectedEmoji) {
+        selectedEmoji.classList.remove('selected');
+      }
+      selectedEmoji = document.querySelector(`.emoji:contains('${emoji}')`);
+      selectedEmoji.classList.add('selected');
+      document.getElementById('satisfaction').value = emoji;
+    }
+
+    function submitForm() {
+      const satisfaction = document.getElementById('satisfaction').value;
+      if (!satisfaction) {
+        alert('Veuillez sélectionner un des emojis.');
+        return;
+      }
+      i
+      alert('Merci pour votre évaluation !');
+      
+    }
+  </script>
 </body>
 </html>

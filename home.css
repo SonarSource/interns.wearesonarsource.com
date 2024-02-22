@@ -34,6 +34,10 @@ text-align: left 50%;
     size: 800px;
     width: 400px;
 }
+.jpg {
+  width : 150px;
+  height : 150px;
+  }
 }
 .emoji {
       font-size: 2em;

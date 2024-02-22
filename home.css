@@ -33,7 +33,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #E74C3C;
+  background-color: #C40035;
   color: white;
 }
 
@@ -44,7 +44,7 @@ nav a:hover {
   font-size: 20px;
   cursor: pointer;
   border: none;
-  border-radius: 10px;
+  border-radius: 50%;
   display: block;
   margin: 50px auto;
   transition: background-color 0.3s;
@@ -52,7 +52,7 @@ nav a:hover {
 }
 
 #gros-bouton-rouge:hover {
-  background-color: #C0392B;
+  background-color: blue ;
 }
  .emoji {
       font-size: 2em;

@@ -30,22 +30,10 @@ text-align: left 50%;
 
 
 
-#gros-bouton-rouge {
-background-color: #E74C3C;
-color: white;
-padding: 320px 340px;
-font-size: 20px;
-cursor: pointer;
-border: none;
-border-radius: 50%;
-display: block;
-margin: 50px auto;
-transition: background-color 0.3s;
-font-family: "Roboto", sans-serif;
+.button{
+    size: 800px;
+    width: 400px;
 }
-
-#gros-bouton-rouge:hover {
-background-color: #C0392B;
 }
 .emoji {
       font-size: 2em;

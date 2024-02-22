@@ -31,8 +31,9 @@ nav {
     justify-content: center;
     align-items: center;
     clear: right;
-}
-nav a {
+    margin-top: 30px;
+  }
+  nav a {
     position: relative;
     display: inline-block;
     font-size: 1em;
@@ -40,8 +41,8 @@ nav a {
     text-decoration: none;
     padding: 0 30px;
     z-index: 1;
-}
-nav span {
+  }
+  nav span {
     position: absolute;
     top: 0;
     left: 0;
@@ -50,13 +51,14 @@ nav span {
     background: linear-gradient(45deg,#2e3192, #1bffff);
     border-radius: 8px;
     transition: .5s ease;   
-}
-nav a:nth-child(1):hover~span {
+  }
+  nav a:nth-child(1):hover~span {
     left: 0;
-}
-nav a:nth-child(2):hover~span {
+  }
+  nav a:nth-child(2):hover~span {
     left: 100px;
-}
-nav a:nth-child(3):hover~span {
+  }
+  nav a:nth-child(3):hover~span {
     left: 209px;
-}
+  }
+  

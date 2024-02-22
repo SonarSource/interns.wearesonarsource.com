@@ -1,65 +1,90 @@
 body {
-    background-color: #F7E5E6;
-    font-family: "Roboto", sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    text-align: center;
-    padding: 20px 0;
-  }
-  
-  h1 {
-    font-size: 35px;
-    color: #2C3E50;
-    margin: 0;
-    font-family: "Arial", sans-serif;
-  }
-  
-  nav {
-    display: flex;
-    justify-content: center;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: #2C3E50;
-    padding: 10px 20px;
-    margin: 0 10px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-    font-family: "Arial", sans-serif;
-  }
-  
-  nav a:hover {
-    background-color: #E74C3C;
-    color: white;
-  }
-  
-  #gros-bouton-rouge {
-    background-color: #E74C3C;
-    color: white;
-    padding: 20px 40px;
-    font-size: 20px;
-    cursor: pointer;
-    border: none;
-    border-radius: 10px;
-    display: block;
-    margin: 50px auto;
-    transition: background-color 0.3s;
-    font-family: "Roboto", sans-serif;
-  }
-  
-  #gros-bouton-rouge:hover {
-    background-color: #C0392B;
-  }
-   .emoji {
-        font-size: 2em;
-        cursor: pointer;
-        margin: 10px;
-      }
-      .selected {
-        background-color: lightblue;
-      }
-  
+  background-color: #F7E5E6;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1 {
+  font-size: 35px;
+  color: #2C3E50;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2C3E50;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  font-family: "Arial", sans-serif;
+}
+
+nav a:hover {
+  background-color: #E74C3C;
+  color: white;
+}
+
+#gros-bouton-rouge {
+  background-color: #E74C3C;
+  color: white;
+  padding: 320px 340px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  display: block;
+  margin: 50px auto;
+  transition: background-color 0.3s;
+  font-family: "Roboto", sans-serif;
+}
+
+#gros-bouton-rouge:hover {
+  background-color: #C0392B;
+}
+ .emoji {
+      font-size: 2em;
+      text-align:center;
+      cursor: pointer;
+      margin: 10px;
+      
+      
+    }
+    .selected {
+      background-color: lightblue;
+    }
+    h2{ 
+    text-align:center;
+      
+    }
+    .emoji {
+  font-size: 2em;
+  text-align: center;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.selected {
+  background-color: lightblue;
+}
+
+h2 {
+  text-align: center;
+}
+
+section {
+  text-align: center;
+}
+

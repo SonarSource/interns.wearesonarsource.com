@@ -5,55 +5,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
-nav {
-  position: relative;
-  width: 350px;
-  height: 50px;
-  background: grey;
-  border-radius: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  clear: right;
-}
-nav a {
-  position: relative;
-  display: inline-block;
-  font-size: 1em;
-  color: #fff;
-  text-decoration: none;
-  padding: 3px;
-  z-index: 1;
-  align-items: center;
-}
-nav span {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 1px;
-  height: 100%;
-  background: linear-gradient(45deg,#2e3192, #1bffff);
-  border-radius: 8px;
-  transition: .5s ease;  
-  align-items: center;
-}
-nav a:nth-child(1):hover~span {
-  left: 0;
-}
-nav a:nth-child(2):hover~span {
-  left: 9px;
-}
-nav a:nth-child(3):hover~span {
-  left: 189px;
-}
 
-body {
-background-color: #F7E5E6;
-font-family: "Roboto", sans-serif;
-margin: 0;
-padding: 0;
-align-items: center;
-}
 
 header {
 text-align: center;
@@ -68,37 +20,6 @@ font-family: "Arial", sans-serif;
 text-align: left 50%;
 }
 
-nav {
-display: flex;
-justify-content: center;
-align-items: center;
-}
-
-nav a {
-text-decoration: none;
-color: #2C3E50;
-padding: 10px 20px;
-margin: 0 10px;
-border-radius: 5px;
-transition: background-color 0.3s;
-font-family: "Arial", sans-serif;
-align-items: center;
-}
-
-nav a:hover {
-background-color: #E74C3C;
-color: white;
-background: linear-gradient(45deg,#2e3192, #1bffff);
-}
-nav a:nth-child(1):hover~span {
-  left: 0;
-}
-nav a:nth-child(2):hover~span {
-  left: 95px;
-}
-nav a:nth-child(3):hover~span {
-  left: 189px;
-}
 
 
 #gros-bouton-rouge {
@@ -150,4 +71,48 @@ text-align: center;
 
 section {
 text-align: center;
+}
+nav {
+background-color: white; /* Couleur de fond */
+padding: 10px; /* Espacement intérieur */
+text-align: center; /* Centrage du texte */
+}
+
+nav a {
+color: black; /* Couleur du texte */
+text-decoration: none; /* Suppression du soulignement */
+margin: 0 10px; /* Marge horizontale entre les liens */
+font-size: 24px; /* Taille de la police */
+font-family: "Arial", bold;
+}
+
+nav a:hover {
+color: red; /* Couleur du texte au survol */
+}
+
+nav a:hover {
+background-color: #E74C3C;
+color: white;
+background: linear-gradient(45deg,#2e3192, #1bffff);
+ border-radius: 5px; /* Coins arrondis */
+}
+nav a:nth-child(1):hover~span {
+  left: 0;
+}
+nav a:nth-child(2):hover~span {
+  left: 95px;
+}
+nav a:nth-child(3):hover~span {
+  left: 189px;
+}
+nav {
+background-color: #F5C6AB; /* Fond blanc */
+padding: 10px; /* Espacement intérieur */
+text-align: center; /* Centrage du texte */
+border-radius: 5px; /* Coins arrondis */
+}
+
+nav-container {
+background-color: grey; /* Fond gris */
+padding: 10px; /* Espacement intérieur */
 }

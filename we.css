@@ -66,7 +66,7 @@ nav a:nth-child(3):hover~span {
   .card:hover {
 
     box-shadow: 0 12px 20px 0 rgba(0,0,0,0.2);  
-    transform: scale(1.1);
+    transform: scale(1.050);
   }
   
   .container {

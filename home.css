@@ -40,10 +40,10 @@ font-family: "Roboto", sans-serif;
 background-color: #C0392B;
 }
 .emoji {
-    font-size: 2em;
-    text-align:center;
-    cursor: pointer;
-    margin: 10px;
+      font-size: 2em;
+      text-align:center;
+      cursor: pointer;
+      margin: 10px;
     
     
   }
@@ -51,39 +51,39 @@ background-color: #C0392B;
     background-color: lightblue;
   }
   h2{ 
-  text-align:center;
+    text-align:center;
     
   }
   .emoji {
-font-size: 2em;
-text-align: center;
-cursor: pointer;
-margin: 10px;
+  font-size: 2em;
+  text-align: center;
+  cursor: pointer;
+  margin: 10px;
 }
 
 .selected {
-background-color: lightblue;
+  background-color: lightblue;
 }
 
 h2 {
-text-align: center;
+  text-align: center;
 }
 
 section {
-text-align: center;
+  text-align: center;
 }
 nav {
-background-color: white; /* Couleur de fond */
-padding: 10px; /* Espacement intérieur */
-text-align: center; /* Centrage du texte */
+  background-color: white; /* Couleur de fond */
+  padding: 10px; /* Espacement intérieur */
+  text-align: center; /* Centrage du texte */
 }
 
 nav a {
-color: black; /* Couleur du texte */
-text-decoration: none; /* Suppression du soulignement */
-margin: 0 10px; /* Marge horizontale entre les liens */
-font-size: 24px; /* Taille de la police */
-font-family: "Arial", bold;
+  color: black; /* Couleur du texte */
+  text-decoration: none; /* Suppression du soulignement */
+  margin: 0 10px; /* Marge horizontale entre les liens */
+  font-size: 24px; /* Taille de la police */
+  font-family: "Arial", bold;
 }
 
 nav a:hover {
@@ -91,10 +91,10 @@ color: red; /* Couleur du texte au survol */
 }
 
 nav a:hover {
-background-color: #E74C3C;
-color: white;
-background: linear-gradient(45deg,#2e3192, #1bffff);
- border-radius: 5px; /* Coins arrondis */
+  background-color: #E74C3C;
+  color: white;
+  background: linear-gradient(45deg,#2e3192, #1bffff);
+  border-radius: 5px; /* Coins arrondis */
 }
 nav a:nth-child(1):hover~span {
   left: 0;
@@ -103,16 +103,16 @@ nav a:nth-child(2):hover~span {
   left: 95px;
 }
 nav a:nth-child(3):hover~span {
-  left: 189px;
+    left: 189px;
 }
-nav {
-background-color: #F5C6AB; /* Fond blanc */
-padding: 10px; /* Espacement intérieur */
-text-align: center; /* Centrage du texte */
-border-radius: 5px; /* Coins arrondis */
+  nav {
+  background-color: #F5C6AB; /* Fond blanc */
+  padding: 10px; /* Espacement intérieur */
+  text-align: center; /* Centrage du texte */
+  border-radius: 5px; /* Coins arrondis */
 }
 
-nav-container {
-background-color: grey; /* Fond gris */
-padding: 10px; /* Espacement intérieur */
+  nav-container {
+  background-color: grey; /* Fond gris */
+  padding: 10px; /* Espacement intérieur */
 }

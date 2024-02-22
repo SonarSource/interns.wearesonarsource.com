@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <title>Notre Site</title>
-  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
     <h1>Sonar's Internship WebSite</h1>
     <nav>
-      <a href="team.html">Team</a>
-      <a href="Sonar.html">Sonar</a>
+      <a href="WE.html">Team</a>
+      <a href="index.html">Sonar</a>
       <a href="#">Home</a>
     </nav>
   </header>
@@ -20,8 +20,8 @@
   </section>
 
   <section>
-    <h2>Évaluez notre service :</h2>
-    <div>
+    <h2>Laissez votre avis :</h2>
+    <div style="text-align: center;">
       <span class="emoji" onclick="selectEmoji('😊')">😊</span>
       <span class="emoji" onclick="selectEmoji('😐')">😐</span>
       <span class="emoji" onclick="selectEmoji('😞')">😞</span>
@@ -50,12 +50,10 @@
     function submitForm() {
       const satisfaction = document.getElementById('satisfaction').value;
       if (!satisfaction) {
-        alert('Please select an emoji. ');
+        alert('Veuillez sélectionner un des emojis.');
         return;
       }
-      i
-      alert('Thanks you for your positive evaluation !');
-      
+      alert('Merci de votre avis très positif !' );
     }
   </script>
 </body>

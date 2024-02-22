@@ -19,11 +19,44 @@ video{
     margin-top: 10px;
 }
 
-.nav{
-    text-decoration: none;   
-}
 
-.nav:hover{
-    background-color: red;
-    border-radius: 4px;
+nav {
+    margin-left: 76px;
+    position: relative;
+    width: 300px;
+    height: 50px;
+    background: grey;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clear: right;
+}
+nav a {
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 23px;
+    z-index: 1;
+}
+nav span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 91px;
+    height: 100%;
+    background: linear-gradient(45deg,#2e3192, #1bffff);
+    border-radius: 8px;
+    transition: .5s ease;   
+}
+nav a:nth-child(1):hover~span {
+    left: 0;
+}
+nav a:nth-child(2):hover~span {
+    left: 100px;
+}
+nav a:nth-child(3):hover~span {
+    left: 209px;
 }

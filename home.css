@@ -110,7 +110,7 @@ cursor: pointer;
 border: none;
 border-radius: 50%;
 display: block;
-margin: 50px auto;
+margin: 59px auto;
 transition: background-color 0.3s;
 font-family: "Roboto", sans-serif;
 }
@@ -137,7 +137,7 @@ background-color: #C0392B;
 font-size: 2em;
 text-align: center;
 cursor: pointer;
-margin: 10px;
+margin: 11px;
 }
 
 .selected {

@@ -12,6 +12,7 @@
       <a href="team.html">Team</a>
       <a href="Sonar.html">Sonar</a>
       <a href="#">Home</a>
+      <span></span>
     </nav>
   </header>
 
@@ -23,7 +24,7 @@
   </section>
 
   <section>
-    <h2>Laissez votre avis :</h2>
+    <h2>Give us some feedback ! :</h2>
     <div style="text-align: center;">
       <span class="emoji" onclick="selectEmoji('😊')">😊</span>
       <span class="emoji" onclick="selectEmoji('😐')">😐</span>
@@ -36,7 +37,7 @@
   <script>
     var bouton = document.getElementById("gros-bouton-rouge");
     bouton.addEventListener("click", function() {
-      alert("Sorry to tell you that you have absolutely zero survival skills! Why did you even touch it?");
+      alert("Sorry to tell you that you have ABSOLUTLY ZERO survival skills! Why did you even press this button ?");
     });
 
     let selectedEmoji = null;
@@ -53,7 +54,7 @@
     function submitForm() {
       const satisfaction = document.getElementById('satisfaction').value;
       if (!satisfaction) {
-        alert('Do not forget to choose an emoji buddy !');
+        alert('Yup, this button does NOT seem to work, its allright, i will repair it tomorow, eventually');
         return;
       }
       alert('Thanks for the positve review !' );

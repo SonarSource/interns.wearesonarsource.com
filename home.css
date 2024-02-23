@@ -34,7 +34,11 @@ text-align: left 50%;
     size: 800px;
     width: 400px;
 }
-}
+.jpg {
+  width : 150px;
+  height : 150px;
+  }
+
 .emoji {
       font-size: 2em;
       text-align:center;
@@ -94,7 +98,7 @@ nav a {
 nav span {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 209px;
   width: 91px;
   height: 100%;
   background: linear-gradient(45deg,#2e3192, #1bffff);

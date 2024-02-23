@@ -3,8 +3,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-     margin-bottom: 10px;
-     font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 body {
@@ -44,7 +48,7 @@ nav {
   nav span {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 100px;
     width: 91px;
     height: 100%;
     background: linear-gradient(45deg,#2e3192, #1bffff);

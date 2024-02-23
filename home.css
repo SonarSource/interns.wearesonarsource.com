@@ -30,23 +30,15 @@ text-align: left 50%;
 
 
 
-#gros-bouton-rouge {
-background-color: #E74C3C;
-color: white;
-padding: 320px 340px;
-font-size: 20px;
-cursor: pointer;
-border: none;
-border-radius: 50%;
-display: block;
-margin: 50px auto;
-transition: background-color 0.3s;
-font-family: "Roboto", sans-serif;
+.button{
+    size: 800px;
+    width: 400px;
 }
+.jpg {
+  width : 150px;
+  height : 150px;
+  }
 
-#gros-bouton-rouge:hover {
-background-color: #C0392B;
-}
 .emoji {
       font-size: 2em;
       text-align:center;
@@ -106,7 +98,7 @@ nav a {
 nav span {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 209px;
   width: 91px;
   height: 100%;
   background: linear-gradient(45deg,#2e3192, #1bffff);
